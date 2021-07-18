@@ -128,20 +128,25 @@ Table of contents
   *Technical summary of the official presets*
 - [Performance](technical/performance.html)
   *How various settings affect encoding speed*
+- [Process Isolation](technical/process-isolation.html)
+  *Process Isolation and Multiple Simultaneous Jobs supports*
 - Video
   - [Video codecs](technical/video-codecs.html)<span class="notice draft"><span>draft</span></span>
+  - [10/12-bit encoding](technical/video-bit-depth.html)<span class="notice draft"><span>draft</span></span>
+  - [HDR10 encoding](technical/hdr10.html)<span class="notice draft"><span>draft</span></span>
   - [Constant quality versus average bit rate](technical/video-cq-vs-abr.html)<span class="notice draft"><span>draft</span></span>
   - [Presets and tunes](technical/video-presets-tunes.html)<span class="notice draft"><span>draft</span></span>
   - [Profiles and levels](technical/video-profiles-levels.html)<span class="notice draft"><span>draft</span></span>
   - [Video angles](technical/video-angles.html)<span class="notice draft"><span>draft</span></span>
   - [Anamorphic video](technical/anamorphic-guide.html)<span class="notice draft"><span>draft</span></span>
-  - [Modulus](technical/modulus.html)<span class="notice draft"><span>draft</span></span>
   - [Frame rate](technical/frame-rates.html)<span class="notice draft"><span>draft</span></span>
+  - [Filters](technical/filters-summary.html)<span class="notice draft"><span>draft</span></span>
 - Hardware encoders
   - [AMD VCE](technical/video-vce.html)
   - [Apple VideoToolbox](technical/video-videotoolbox.html)
   - [Intel Quick Sync Video](technical/video-qsv.html)
   - [NVIDIA NVENC](technical/video-nvenc.html)
+  - [Media Foundation (ARM)](technical/video-mediafoundation.html)
 - Audio
   - [Dynamic range compression](technical/dynamic-range-compression.html)<span class="notice draft"><span>draft</span></span>
   - [Audio quality](technical/audio-quality.html)<span class="notice draft"><span>draft</span></span>
@@ -149,15 +154,6 @@ Table of contents
   - [Container formats](technical/containers.html)<span class="notice draft"><span>draft</span></span>
   - [iPod 5th Generation support](technical/old-ipod-support.html)<span class="notice draft"><span>draft</span></span>
   - [Automatic file naming](technical/automatic-file-naming.html)<span class="notice draft"><span>draft</span></span>
-- Filters
-  - [Filters summary](technical/filters-summary.html)<span class="notice draft"><span>draft</span></span>
-
-<!--
-- [Web optimized](technical/web-optimised.html)
-- [Video source type](advanced/video-sources.html)
-- Advanced Filter Settings
-- Advanced preferences
--->
 
 ## Developer documentation
 
