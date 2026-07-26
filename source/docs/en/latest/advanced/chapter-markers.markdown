@@ -28,10 +28,9 @@ In HandBrake, if you click on the Chapters tab, you'll see a list of detected ch
 
 If you wish, you can rename these by simply altering the names shown in the chapters tab.
 
-You can also import or export the set of chapter markers. HandBrake supports importing of CSV (Comma Separated Value) files.
+For Windows and macOS users, you can also import or export the set of chapter markers. HandBrake supports importing of CSV (Comma Separated Value) files.
 
 Click the Import button to choose a CSV file. The file must be in the following format:
-
 
 ```
 1,Chapter Name
@@ -41,6 +40,8 @@ Click the Import button to choose a CSV file. The file must be in the following 
 ```
 
 Finally, you can export the current chapter list to CSV format by clicking the 'export' button.
+
+For Linux users you can export and import XML files only at present. To create a template for importing, simply export the current state.
 
 ## Sources without chapters
 
