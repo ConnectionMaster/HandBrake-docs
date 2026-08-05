@@ -9,7 +9,9 @@ Build:
       Path:   docs
       Force:  true
       Source: source/docs
-      Navigation: table-of-contents.markdown
-      Templates:
-        - Source: templates/mark1
+      Sitemap:
+        Source: table-of-contents.markdown
+        Search: true
+      Template:
+        Source: templates/mark1
 ...

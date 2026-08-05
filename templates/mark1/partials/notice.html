@@ -1,7 +1,7 @@
 {% if document.state contains "obsolete" %}
 <div class="notice obsolete">
-    <p lang="en">This article is for an older version of {{ document.project }}. <a href="{{ base.relpath }}{{ document.language-code | slug }}/">All versions</a>.</p>
-    <p lang="de">Dieser Artikel ist für eine ältere Version von {{ document.project }}. <a href="{{ base.relpath }}{{ document.language-code | slug }}/">Alle Versionen</a>.</p>
+    <p lang="en">This article is for an older version of {{ document.project }}. <a href="{{ target.rootpath | normalize-path }}{{ document.language-code | slug }}/">All versions</a>.</p>
+    <p lang="de">Dieser Artikel ist für eine ältere Version von {{ document.project }}. <a href="{{ target.rootpath | normalize-path }}{{ document.language-code | slug }}/">Alle Versionen</a>.</p>
 </div>
 {% endif %}
 {% if document.state contains "draft" %}

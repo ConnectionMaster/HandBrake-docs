@@ -2,6 +2,7 @@
 Template:
   Partials:
     Base:     partials/base.html
+    Head:     partials/head.html
     Body:     partials/body.html
     Document: partials/document.html
     Header:   partials/header.html

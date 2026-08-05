@@ -195,8 +195,10 @@ $(document).ready(function(){
                 img = new Image(),
                 $img = $('<img src="'+url+'" alt="" class="'+self.namespace+'-image" />');
             var srcset = $(this.$currentTarget[0]).attr('data-srcset');
-            if (srcset.length > 0) {
+            if (srcset && srcset.length > 0) {
                 $img = $('<img src="'+url+'" srcset="'+srcset+'" alt="" class="'+self.namespace+'-image" />');
+            } else {
+                $img = $('<img src="'+url+'" alt="" class="'+self.namespace+'-image" />');
             };
             img.onload  = function() {
                 /* Store naturalWidth & height for IE8 */
