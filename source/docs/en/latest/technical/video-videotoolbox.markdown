@@ -102,9 +102,9 @@ The following value types are supported (each option only accepts one value type
 | keyint                      | int         |   ✓   |   ✓   | Sets the maximum interval between key frames, also known as the key frame rate.                           |
 | bframes                     | boolean     |   ✓   |   ✓   | Set to `1` to enable Reference B-Frames (default), `0` to disable.                                        |
 | cabac                       | boolean     |   ✓   |       | Set to `1` to enable cabac, `0` to disable. Note the hyphen for H.264.                                    |
-| slice-max-size              | boolean     |   ✓   |       | Sets the maximum slice size for H.264 encoding in bytes.                                                  |
-| vbv-bufsize                 | boolean     |   ✓   |   ✓   | Sets the size of the VBV buffer in bytes per second.                                                      |
-| vbv-maxrate                 | boolean     |   ✓   |   ✓   | Sets the maximum rate the VBV buffer should be assumed to refill at, in bytes per second.                 |
+| slice-max-size              | int         |   ✓   |       | Sets the maximum slice size for H.264 encoding in bytes.                                                  |
+| vbv-bufsize                 | int         |   ✓   |   ✓   | Sets the size of the VBV buffer in bytes per second.                                                      |
+| vbv-maxrate                 | int         |   ✓   |   ✓   | Sets the maximum rate the VBV buffer should be assumed to refill at, in bytes per second.                 |
 | qpmin                       | int         |   ✓   |   ✓   | Sets the minimum quantizer that will be used.                                                             |
 | qpmax                       | int         |   ✓   |   ✓   | Sets the maximum quantizer that will be used.                                                             |
 | ref                         | int         |   ✓   |   ✓   | Sets the maximum number of reference frames.                                                              |
