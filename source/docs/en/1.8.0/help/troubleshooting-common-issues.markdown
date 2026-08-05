@@ -30,13 +30,13 @@ Please consult your distribution's documentation for how to add HandBrake to you
 
 Try each of the following steps until HandBrake is working again.
 
-1. Make sure you have official HandBrake and not a broken third-party build; see [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.html)
+1. Make sure you have official HandBrake and not a broken third-party build; see [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.markdown)
 2. Restart your computer
 3. Delete your HandBrake configuration data and presets (replace username with your own)
     - /home/username/.config/ghb
-4. Install/reinstall the latest version of HandBrake; see [Downloading and installing HandBrake](../get-handbrake/download-and-install.html)
+4. Install/reinstall the latest version of HandBrake; see [Downloading and installing HandBrake](../get-handbrake/download-and-install.markdown)
 
-If the above does not solve your issue, someone may be able to help via HandBrake's [Community support](community-support.html) channels.
+If the above does not solve your issue, someone may be able to help via HandBrake's [Community support](community-support.markdown) channels.
 
 <!-- /.system-linux -->
 <!-- .system-macos -->
@@ -67,9 +67,9 @@ Try each of the following steps until HandBrake is working again.
 2. Delete your HandBrake configuration data and presets (replace `Username` with your user name)
     - /Users/Username/Library/Containers/fr.handbrake.HandBrake/Data/Library/Application Support/HandBrake/
     - /Users/Username/Library/Application Support/HandBrake
-3. Install/reinstall the latest version of HandBrake; see [Downloading and installing HandBrake](../get-handbrake/download-and-install.html)
+3. Install/reinstall the latest version of HandBrake; see [Downloading and installing HandBrake](../get-handbrake/download-and-install.markdown)
 
-If the above does not solve your issue, someone may be able to help via HandBrake's [Community support](community-support.html) channels.
+If the above does not solve your issue, someone may be able to help via HandBrake's [Community support](community-support.markdown) channels.
 
 <!-- /.system-macos -->
 <!-- .system-windows -->
@@ -93,9 +93,9 @@ Try each of the following steps until HandBrake is working again.
 3. Delete your HandBrake configuration data and presets (replace username with your own)
     - C:\Users\username\AppData\Roaming\HandBrake
     - C:\Users\username\AppData\Local\HandBrake
-4. Install/reinstall the latest version of HandBrake; see [Downloading and installing HandBrake](../get-handbrake/download-and-install.html)
+4. Install/reinstall the latest version of HandBrake; see [Downloading and installing HandBrake](../get-handbrake/download-and-install.markdown)
 
-If the above does not solve your issue, someone may be able to help via HandBrake's [Community support](community-support.html) channels.
+If the above does not solve your issue, someone may be able to help via HandBrake's [Community support](community-support.markdown) channels.
 
 <!-- /.system-windows -->
 

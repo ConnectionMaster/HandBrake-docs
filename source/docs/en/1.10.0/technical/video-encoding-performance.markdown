@@ -17,4 +17,4 @@ Redirect_URL:    performance.html
 Video encoding performance
 ==========================
 
-This article has been moved to [Performance](performance.html).
+This article has been moved to [Performance](performance.markdown).

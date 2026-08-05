@@ -73,6 +73,6 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
     sudo yum groupinstall "X Software Development" "GNOME Software Development"
     sudo yum install dbus-glib-devel gstreamer1-devel gstreamer1-plugins-base-devel intltool libgudev1-devel libnotify-devel webkitgtk3-devel
 
-Fedora is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Fedora is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.
 
 [^python-centos-6]: Installing Python from CentOS [SCL](https://wiki.centos.org/AdditionalResources/Repositories/SCL) does not impact the default system Python; newer versions are installed alongside and in addition to the system version.

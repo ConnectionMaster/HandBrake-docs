@@ -60,7 +60,7 @@ You may wish to slightly increase quality for viewing on larger displays (50 inc
 
 <!-- .success -->
 
-Continue to [Previewing your settings](preview-settings.html).
+Continue to [Previewing your settings](preview-settings.markdown).
 
 <!-- /.success -->
 

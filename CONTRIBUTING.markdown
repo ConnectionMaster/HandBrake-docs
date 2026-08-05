@@ -85,7 +85,7 @@ Quick start
 
 HandBrake takes videos you already have and makes new ones that work on your mobile phone, tablet, TV media player, game console, computer, or web browser—nearly anything that supports modern video formats.
 
-This quick start guide assumes you have already downloaded and installed HandBrake. If you do not already have HandBrake, please see [Downloading and installing HandBrake](../get-handbrake/download-and-install.html).
+This quick start guide assumes you have already downloaded and installed HandBrake. If you do not already have HandBrake, please see [Downloading and installing HandBrake](../get-handbrake/download-and-install.markdown).
 
 Let's get started.
 

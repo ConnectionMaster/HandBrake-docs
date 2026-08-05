@@ -16,25 +16,25 @@ License_URL:     https://handbrake.fr/docs/license.html
 Community support
 =================
 
-Falls Probleme beim Verwenden von HandBrake auftreten, durchsuche bitte zuerst das [Inhaltsverzeichnis](../table-of-contents.html) dieser Dokumentation. Die Information die du benötigst könnte nur einen Klick entfernt sein.
+Falls Probleme beim Verwenden von HandBrake auftreten, durchsuche bitte zuerst das [Inhaltsverzeichnis](../table-of-contents.markdown) dieser Dokumentation. Die Information die du benötigst könnte nur einen Klick entfernt sein.
 
 Nichts gefunden? Lies weiter.
 
 ## Aktivitätenlogs
 
-Für alle Supportanfragen ist ein Aktivitätenlog **verpflichtend**. Es ist der schnellste und genaueste Weg für das HandBrake Team die potentiellen Problemen die du hast zu verstehen. Logs werden *nur* auf deinem Computer gespeichert, bitte lies mehr darüber wo du deine [Aktivitäten Logs](activity-log.html) finden und teilen kannst, wenn du nach Support fragst.
+Für alle Supportanfragen ist ein Aktivitätenlog **verpflichtend**. Es ist der schnellste und genaueste Weg für das HandBrake Team die potentiellen Problemen die du hast zu verstehen. Logs werden *nur* auf deinem Computer gespeichert, bitte lies mehr darüber wo du deine [Aktivitäten Logs](activity-log.markdown) finden und teilen kannst, wenn du nach Support fragst.
 
-Du denkst dir vielleicht, dass für deine einfache Frage ein Log unnötigt ist. Bitte lese die Sektion *Warum Aktivitäten Logs verpflichtend für Supportanfragen sind* auf der [Aktivitaeten Log](activity-log.html) Seite. *Ohne einen Aktivitäten Log kann das HandBrake Team keinen Support bieten.*
+Du denkst dir vielleicht, dass für deine einfache Frage ein Log unnötigt ist. Bitte lese die Sektion *Warum Aktivitäten Logs verpflichtend für Supportanfragen sind* auf der [Aktivitaeten Log](activity-log.markdown) Seite. *Ohne einen Aktivitäten Log kann das HandBrake Team keinen Support bieten.*
 
 ## Community Foren
 
 Die [Github Discussions](https://github.com/HandBrake/HandBrake/discussions) sind 24/7 verfügbar. Ob du eine Supportanfrage hast oder einfach nur mit anderen HandBrake Nutzern reden möchtest, dies ist der Ort dafür. Die Registrierung ist frei. 
 
-Entwickler und eifrige Benutzer können Bugs auf HandBrake's [Issue Tracker auf GitHub](https://github.com/HandBrake/HandBrake/issues) melden. Bitte fülle dafür alle benötigten Informationen aus, inklusive einem [Aktivitäten Log](aktivitaeten-log.html).
+Entwickler und eifrige Benutzer können Bugs auf HandBrake's [Issue Tracker auf GitHub](https://github.com/HandBrake/HandBrake/issues) melden. Bitte fülle dafür alle benötigten Informationen aus, inklusive einem [Aktivitäten Log](aktivitaeten-log.markdown).
 
 ## IRC Diskussions Channels
 
-Echtzeitchat gibt es auf unserem [Freenode](http://freenode.net/irc_servers.shtml) IRC channel, [#handbrake](irc://irc.freenode.net/#handbrake). Beachte wiederum, dass bei einer Supportanfrage ein [Aktivitäten Log](activity-log.html) benötigt wird.
+Echtzeitchat gibt es auf unserem [Freenode](http://freenode.net/irc_servers.shtml) IRC channel, [#handbrake](irc://irc.freenode.net/#handbrake). Beachte wiederum, dass bei einer Supportanfrage ein [Aktivitäten Log](activity-log.markdown) benötigt wird.
 
 Beachte, dass HandBrake's Entwickler in verschiedenen Zeitzonen rund um den Globus verteilt sind und Berufe und Leben neben HandBrake und seiner Community haben. Es ist möglich, dass keiner deine Supportanfrage auf IRC sofort beantwortet. Sei geduldig oder frage in den Foren.
 

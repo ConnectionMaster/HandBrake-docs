@@ -21,7 +21,7 @@ About HandBrake
 
 HandBrake is an open-source video transcoder available for Linux, Mac, and Windows. Everyone can use HandBrake to make videos *for free*.
 
-HandBrake is a post-production tool. Its primary purpose is to convert videos from supported [source formats](../technical/source-formats.html) to MP4, MKV, or WebM format. If you wish to make changes to your `Source` video, please use an appropriate [video editing software](https://en.wikipedia.org/wiki/List_of_video_editing_software).
+HandBrake is a post-production tool. Its primary purpose is to convert videos from supported [source formats](../technical/source-formats.markdown) to MP4, MKV, or WebM format. If you wish to make changes to your `Source` video, please use an appropriate [video editing software](https://en.wikipedia.org/wiki/List_of_video_editing_software).
 
 
 ## What HandBrake does
@@ -65,7 +65,7 @@ Do not use HandBrake or any other application to copy materials you do not own o
 
 <!-- .success -->
 
-Continue to [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.html).
+Continue to [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.markdown).
 
 <!-- /.success -->
 

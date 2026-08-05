@@ -48,7 +48,7 @@ You can modify these rules by editing the settings on the relevant "selection be
 
 Please note, these rules do not cover all possible use cases. If the behaviours don't meet your requirements, audio and subtitle tracks will need to be handled manually after you've scanned a source before adding it to the queue.
 
-For more information, please see [Audio and Subtitle Defaults](../workflow/audio-subtitle-defaults.html).
+For more information, please see [Audio and Subtitle Defaults](../workflow/audio-subtitle-defaults.markdown).
 
 ## Default Preset
 

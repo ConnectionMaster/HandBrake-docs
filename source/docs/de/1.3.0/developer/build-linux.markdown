@@ -17,19 +17,19 @@ License_URL:     https://handbrake.fr/docs/license.html
 HandBrake für Linux bauen
 ============================
 
-Bitte entferne - falls vorhanden - ein bereits installiertes HandBrake Paket von deiner Distribution oder einem Drittanbieter Repository, bevor du weitermachst. Siehe die Sektion *Warnung über nicht funktionierende Drittanbieter Builds* auf der [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.html) Seite für mehr Informationen.
+Bitte entferne - falls vorhanden - ein bereits installiertes HandBrake Paket von deiner Distribution oder einem Drittanbieter Repository, bevor du weitermachst. Siehe die Sektion *Warnung über nicht funktionierende Drittanbieter Builds* auf der [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.markdown) Seite für mehr Informationen.
 
 ## Abhänigkeiten installieren
 
 Anweisungen zum Installieren von Abhängigkeiten sind für die folgenden Distributionen verfügbar.
 
-- [Arch](install-dependencies-arch.html)
-- [CentOS](install-dependencies-centos.html)
-- [Clear](install-dependencies-clear.html)
-- [Debian](install-dependencies-debian.html)
-- [Fedora](install-dependencies-fedora.html)
-- [Gentoo](install-dependencies-gentoo.html)
-- [Ubuntu](install-dependencies-ubuntu.html)
+- [Arch](install-dependencies-arch.markdown)
+- [CentOS](install-dependencies-centos.markdown)
+- [Clear](install-dependencies-clear.markdown)
+- [Debian](install-dependencies-debian.markdown)
+- [Fedora](install-dependencies-fedora.markdown)
+- [Gentoo](install-dependencies-gentoo.markdown)
+- [Ubuntu](install-dependencies-ubuntu.markdown)
 
 HandBrake bietet optionale experimentelle Unterstützung für Intel Quick Sync Video unter Linux. Dafür wird das  inklusive Abhängigkeiten benötigt. Mehr Informationen gibt es bei [Intel Media SDK Releases](https://github.com/Intel-Media-SDK/MediaSDK/releases) und [Intel Media SDK Build Instructions](ihttps://github.com/Intel-Media-SDK/MediaSDK#how-to-build)(in English).
 

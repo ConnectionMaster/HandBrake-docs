@@ -18,4 +18,4 @@ Redirect_URL:    performance.html
 Performance der Kodierung
 =============================
 
-Dieser Artikel wurde nach [Performance](performance.html) verschoben.
+Dieser Artikel wurde nach [Performance](performance.markdown) verschoben.

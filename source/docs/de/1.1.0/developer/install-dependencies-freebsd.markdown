@@ -93,4 +93,4 @@ Um die GTK [GUI](abbr:Graphical User Interface - Grafische Benutzeroberfläche) 
 
     sudo pkg install atk cairo dbus dbus-glib desktop-file-utils gdk-pixbuf2 gettext glib gnome3 gstreamer1-plugins-gdkpixbuf gtk3 intltool libdvdcss libnotify libvpx pango
 
-FreeBSD ist nun bereit HandBrake zu bauen. Siehe [HandBrake für FreeBSD bauen](build-bsd.html) für weitere Anweisungen.
+FreeBSD ist nun bereit HandBrake zu bauen. Siehe [HandBrake für FreeBSD bauen](build-bsd.markdown) für weitere Anweisungen.

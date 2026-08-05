@@ -19,50 +19,50 @@ Table of contents
 
 ## Introduction
 
-- [Quick start](introduction/quick-start.html)
+- [Quick start](introduction/quick-start.markdown)
   *Learn how to make your first video in minutes*
-- [About HandBrake](introduction/about.html)
+- [About HandBrake](introduction/about.markdown)
   *What HandBrake is, does, and does not*
 
 
 ## Getting HandBrake
 
-- [Where to get HandBrake](get-handbrake/where-to-get-handbrake.html)
+- [Where to get HandBrake](get-handbrake/where-to-get-handbrake.markdown)
   *The officially supported version*
-- [Downloading and installing HandBrake](get-handbrake/download-and-install.html)
+- [Downloading and installing HandBrake](get-handbrake/download-and-install.markdown)
   *How to get HandBrake onto your computer*
-- [Checking for updates](get-handbrake/check-for-updates.html)
+- [Checking for updates](get-handbrake/check-for-updates.markdown)
   *Staying up to date with the latest features and bug fixes*
 
 
 ## Making videos
 
-- [Opening a video source](workflow/open-video-source.html)
+- [Opening a video source](workflow/open-video-source.markdown)
   *How to get your videos into HandBrake*
-- [Selecting a preset](workflow/select-preset.html)
+- [Selecting a preset](workflow/select-preset.markdown)
   *Tailored settings for instant compatibility with many devices*
-- [Adjusting quality](workflow/adjust-quality.html)
+- [Adjusting quality](workflow/adjust-quality.markdown)
   *Easily increase visual quality or reduce file size*
-- [Previewing your settings](workflow/preview-settings.html)
+- [Previewing your settings](workflow/preview-settings.markdown)
   *See what your new video will look like in a fraction of the time*
-- [Starting encoding](workflow/start-encoding.html)
+- [Starting encoding](workflow/start-encoding.markdown)
   *Start encoding your new video with one click*
 
 
 ## Advanced workflows
 
-- [Using the queue](advanced/queue.html)
+- [Using the queue](advanced/queue.markdown)
   *Set up multiple encode jobs at once*
-- [Point-to-point encoding](advanced/point-to-point.html)
-- [Custom presets](advanced/custom-presets.html)
-- [Audio and subtitle defaults](advanced/audio-subtitle-defaults.html)
-- [Resizing video](advanced/resizing-video.html)
-- [Preserving surround sound](advanced/surround-sound.html)
-- [Adding subtitles](advanced/subtitles.html)
-- [Adding chapter markers](advanced/chapter-markers.html)
+- [Point-to-point encoding](advanced/point-to-point.markdown)
+- [Custom presets](advanced/custom-presets.markdown)
+- [Audio and subtitle defaults](advanced/audio-subtitle-defaults.markdown)
+- [Resizing video](advanced/resizing-video.markdown)
+- [Preserving surround sound](advanced/surround-sound.markdown)
+- [Adding subtitles](advanced/subtitles.markdown)
+- [Adding chapter markers](advanced/chapter-markers.markdown)
 
-<!-- - [Managing Audio Tracks](advanced/managing-audio.html) -->
-<!-- - [Post-processing metadata](advanced/post-processing.html) -->
+<!-- - [Managing Audio Tracks](advanced/managing-audio.markdown) -->
+<!-- - [Post-processing metadata](advanced/post-processing.markdown) -->
 
 
 <!-- ## Restoration and enhancement
@@ -86,73 +86,73 @@ Table of contents
 
 <!-- ## Advanced workflows part 2
 
-- [Understanding source types](advanced/video-sources.html)
-- [Selecting a container format and encoders](advanced/containers.html)
-- [Selecting a video angle](advanced/video-angles.html)
-- [Working with frame rates](advanced/frame-rates.html)
-- [Adjusting audio quality](advanced/audio-quality.html)
-- [Progressive download support](advanced/web-optimised.html)
-- [Compatibility with legacy devices](advanced/old-ipod-support.html)
-- [Automatically naming files](advanced/automatic-file-naming.html)
+- [Understanding source types](advanced/video-sources.markdown)
+- [Selecting a container format and encoders](advanced/containers.markdown)
+- [Selecting a video angle](advanced/video-angles.markdown)
+- [Working with frame rates](advanced/frame-rates.markdown)
+- [Adjusting audio quality](advanced/audio-quality.markdown)
+- [Progressive download support](advanced/web-optimised.markdown)
+- [Compatibility with legacy devices](advanced/old-ipod-support.markdown)
+- [Automatically naming files](advanced/automatic-file-naming.markdown)
 -->
 
 ## Getting help
 
-- [Troubleshooting common issues](help/troubleshooting-common-issues.html)
+- [Troubleshooting common issues](help/troubleshooting-common-issues.markdown)
   *What to do if something goes wrong*
-- [Community support](help/community-support.html)
+- [Community support](help/community-support.markdown)
   *Get help from real people*
-- [Activity Log](help/activity-log.html)
+- [Activity Log](help/activity-log.markdown)
   *Activity Logs help you receive better support*
 
 
 ## More information
 
-- [Project history](about/history.html)
-- [Contributing](contributing/contribute.html)
+- [Project history](about/history.markdown)
+- [Contributing](contributing/contribute.markdown)
   *How you can get involved*
 
 
 ## CLI documentation
 
-- [Command line reference](cli/command-line-reference.html)
-- [CLI options list](cli/cli-options.html)
+- [Command line reference](cli/command-line-reference.markdown)
+- [CLI options list](cli/cli-options.markdown)
 
 
 ## Technical documentation
 
-- [System requirements](technical/system-requirements.html)
+- [System requirements](technical/system-requirements.markdown)
   *Make sure your system can run HandBrake*
-- [Supported source formats](technical/source-formats.html)
+- [Supported source formats](technical/source-formats.markdown)
   *Types of video files HandBrake can read*
-- [Official presets](technical/official-presets.html)
+- [Official presets](technical/official-presets.markdown)
   *Technical summary of the official presets*
 - Video
-  - [Video encoders](technical/video-codecs.html)
-  - [Video encoding speed](technical/video-encoding-performance.html)
-  - [Constant quality versus average bit rate](technical/video-cq-vs-abr.html)
-  - [x264 presets and tunes](technical/video-x264-presets-tunes.html)
-  - [x264 profile and level](technical/video-x264-profiles-levels.html)
-  - [Video angles](technical/video-angles.html)
-  - [Anamorphic video](technical/anamorphic-guide.html)
-  - [Modulus](technical/modulus.html)
-  - [Frame rate](technical/frame-rates.html)
-  - [Intel QuickSync Video (QSV) options](technical/video-qsv-options.html)
-  - [AMD VCE](technical/video-vce.html)
-  - [NVidia NVENC](technical/video-nvenc.html)
+  - [Video encoders](technical/video-codecs.markdown)
+  - [Video encoding speed](technical/video-encoding-performance.markdown)
+  - [Constant quality versus average bit rate](technical/video-cq-vs-abr.markdown)
+  - [x264 presets and tunes](technical/video-x264-presets-tunes.markdown)
+  - [x264 profile and level](technical/video-x264-profiles-levels.markdown)
+  - [Video angles](technical/video-angles.markdown)
+  - [Anamorphic video](technical/anamorphic-guide.markdown)
+  - [Modulus](technical/modulus.markdown)
+  - [Frame rate](technical/frame-rates.markdown)
+  - [Intel QuickSync Video (QSV) options](technical/video-qsv-options.markdown)
+  - [AMD VCE](technical/video-vce.markdown)
+  - [NVidia NVENC](technical/video-nvenc.markdown)
 - Audio
-  - [Dynamic range compression](technical/dynamic-range-compression.html)
-  - [Audio quality](technical/audio-quality.html)
+  - [Dynamic range compression](technical/dynamic-range-compression.markdown)
+  - [Audio quality](technical/audio-quality.markdown)
 - Files and compatibility
-  - [Container formats](technical/containers.html)
-  - [iPod 5th Generation support](technical/old-ipod-support.html)
-  - [Automatic file naming](technical/automatic-file-naming.html)
+  - [Container formats](technical/containers.markdown)
+  - [iPod 5th Generation support](technical/old-ipod-support.markdown)
+  - [Automatic file naming](technical/automatic-file-naming.markdown)
 - Filters
-  - [Filters summary](technical/filters-summary.html)
+  - [Filters summary](technical/filters-summary.markdown)
 
 <!--
-- [Web optimized](technical/web-optimised.html)
-- [Video source type](advanced/video-sources.html)
+- [Web optimized](technical/web-optimised.markdown)
+- [Video source type](advanced/video-sources.markdown)
 - Advanced Filter Settings
 - Advanced preferences
 -->
@@ -160,12 +160,12 @@ Table of contents
 ## Developer documentation
 
 - Building HandBrake
-  - [Building HandBrake for BSD](developer/build-bsd.html)
-    - Installing dependencies on [FreeBSD](developer/install-dependencies-freebsd.html)
-  - [Building HandBrake for Linux](developer/build-linux.html)
-    - Installing dependencies on [Arch](developer/install-dependencies-arch.html) / [CentOS](developer/install-dependencies-centos.html) / [Debian](developer/install-dependencies-debian.html) / [Fedora](developer/install-dependencies-fedora.html) / [Gentoo](developer/install-dependencies-gentoo.html) / [Ubuntu](developer/install-dependencies-ubuntu.html)
-  - [Building HandBrake for Mac](developer/build-mac.html)
-  - [Building HandBrake for Windows](developer/build-windows.html)
+  - [Building HandBrake for BSD](developer/build-bsd.markdown)
+    - Installing dependencies on [FreeBSD](developer/install-dependencies-freebsd.markdown)
+  - [Building HandBrake for Linux](developer/build-linux.markdown)
+    - Installing dependencies on [Arch](developer/install-dependencies-arch.markdown) / [CentOS](developer/install-dependencies-centos.markdown) / [Debian](developer/install-dependencies-debian.markdown) / [Fedora](developer/install-dependencies-fedora.markdown) / [Gentoo](developer/install-dependencies-gentoo.markdown) / [Ubuntu](developer/install-dependencies-ubuntu.markdown)
+  - [Building HandBrake for Mac](developer/build-mac.markdown)
+  - [Building HandBrake for Windows](developer/build-windows.markdown)
 - Packaging HandBrake
-  - [Flatpak apps for Linux](developer/flatpak-repo.html)
+  - [Flatpak apps for Linux](developer/flatpak-repo.markdown)
     *Fully-contained applications compatible with multiple Linux distributions*

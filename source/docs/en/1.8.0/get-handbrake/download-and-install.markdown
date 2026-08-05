@@ -18,11 +18,11 @@ Downloading and installing HandBrake
 
 HandBrake is available for Linux, Mac, and Windows, at the [HandBrake website](https://handbrake.fr/).
 
-This is the *only* official download source for HandBrake. For more information, see [Where to get HandBrake](where-to-get-handbrake.html).
+This is the *only* official download source for HandBrake. For more information, see [Where to get HandBrake](where-to-get-handbrake.markdown).
 
 ## Downloading
 
-*Most modern computers can run HandBrake. To be sure your system meets the minimum requirements, see [System requirements](../technical/system-requirements.html) in the technical documentation.*
+*Most modern computers can run HandBrake. To be sure your system meets the minimum requirements, see [System requirements](../technical/system-requirements.markdown) in the technical documentation.*
 
 To download HandBrake to your computer, click the download button on the HandBrake website's [Home page](https://handbrake.fr/). You can also choose a version for a specific operating system from the [Downloads page](https://handbrake.fr/downloads.php).
 
@@ -73,7 +73,7 @@ The HandBrake Team also publishes [OpenPGP signatures for all downloads on GitHu
 
 ## Installing on Linux
 
-If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](where-to-get-handbrake.html) for more information.
+If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](where-to-get-handbrake.markdown) for more information.
 
 ### Flathub Flatpak
 
@@ -204,7 +204,7 @@ And the CLI may be run with
 
 <!-- .success -->
 
-Continue to [Checking for updates](check-for-updates.html).
+Continue to [Checking for updates](check-for-updates.markdown).
 
 <!-- /.success -->
 

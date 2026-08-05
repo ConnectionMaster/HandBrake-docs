@@ -81,4 +81,4 @@ Um die GTK [GUI](abbr:Graphical User Interface - Grafische Benutzeroberfläche) 
 
 	sudo apt-get install gstreamer1.0-libav intltool libappindicator-dev libdbus-glib-1-dev libglib2.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgtk-3-dev libgudev-1.0-dev libnotify-dev libwebkitgtk-3.0-dev
  
-Ubuntu ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weitere Anweisungen.
+Ubuntu ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weitere Anweisungen.

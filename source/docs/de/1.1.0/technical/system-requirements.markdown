@@ -80,11 +80,11 @@ HandBrake's QuickSync Feature ist nur auf Windows verfügbar. Experimenteller Li
 
 #### Ubuntu (Offizielles PPA)
 
-Siehe [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.html) für PPA Details.
+Siehe [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.markdown) für PPA Details.
 
 #### Andere Linuxdistributionen
 
-Für andere Linux Distributionen musst du den [Quellcode kompilieren](../developer/build-linux.html).
+Für andere Linux Distributionen musst du den [Quellcode kompilieren](../developer/build-linux.markdown).
 
 <!-- /.system-linux -->
 <!-- .system-macos -->

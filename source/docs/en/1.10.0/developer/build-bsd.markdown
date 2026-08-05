@@ -16,15 +16,15 @@ License_URL:     https://handbrake.fr/docs/license.html
 Building HandBrake for BSD
 ==========================
 
-If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.html) for more information.
+If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.markdown) for more information.
 
 ## Installing dependencies
 
 Dependency installation instructions are available for the following distributions.
 
-- [FreeBSD](install-dependencies-freebsd.html)
-- [NetBSD](install-dependencies-netbsd.html)
-- [OpenBSD](install-dependencies-openbsd.html)
+- [FreeBSD](install-dependencies-freebsd.markdown)
+- [NetBSD](install-dependencies-netbsd.markdown)
+- [OpenBSD](install-dependencies-openbsd.markdown)
 
 ## Building HandBrake
 

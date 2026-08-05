@@ -75,7 +75,7 @@ Linux Nutzer sollten das [offizielle Release PPA](https://launchpad.net/~stebbin
 
 <!-- .success -->
 
-Fahre fort zu [HandBrake herunterladen und installieren](download-and-install.html).
+Fahre fort zu [HandBrake herunterladen und installieren](download-and-install.markdown).
 
 <!-- /.success -->
 

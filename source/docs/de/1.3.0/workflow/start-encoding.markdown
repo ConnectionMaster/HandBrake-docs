@@ -71,12 +71,12 @@ Gratulation! Du hast soeben dein erstes Video mit HandBrake kodiert. Es ist nun 
 
 <!-- .success -->
 
-Fahre fort zu [Mehrere Kodierungsprozesse mit der Warteschlange](../advanced/queue.html).
+Fahre fort zu [Mehrere Kodierungsprozesse mit der Warteschlange](../advanced/queue.markdown).
 
 <!-- /.success -->
 <!-- .fail -->
 
-Falls du dein Video nicht wie erwartet bekommen hast, ein Fehler aufgetreten ist, oder du auf andere Probleme gestoßen bist, kannst du weiterlesen um mehr darüber zu erfahren, wie HandBrake arbeitet oder dir gleich die [Fehlerbehebung bekannter Probleme](../help/troubleshooting-common-issues.html) durchlesen.
+Falls du dein Video nicht wie erwartet bekommen hast, ein Fehler aufgetreten ist, oder du auf andere Probleme gestoßen bist, kannst du weiterlesen um mehr darüber zu erfahren, wie HandBrake arbeitet oder dir gleich die [Fehlerbehebung bekannter Probleme](../help/troubleshooting-common-issues.markdown) durchlesen.
 
 <!-- /.fail -->
 

@@ -35,7 +35,7 @@ The CPU scaling curve does vary greatly by source and settings used.
 
 HandBrake also supports encoding in ASIC hardware with Intel QuickSync, Nvidia NVEnc, and AMD VCE.
 
-See our [System Requirements](../technical/system-requirements.html) for details on recommended hardware for running HandBrake.
+See our [System Requirements](../technical/system-requirements.markdown) for details on recommended hardware for running HandBrake.
 
 ### Settings
 

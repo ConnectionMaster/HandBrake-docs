@@ -69,7 +69,7 @@ Please **do not** request support for these or any other unofficial versions. Th
 
 <!-- .success -->
 
-Continue to [Downloading and installing HandBrake](download-and-install.html).
+Continue to [Downloading and installing HandBrake](download-and-install.markdown).
 
 <!-- /.success -->
 

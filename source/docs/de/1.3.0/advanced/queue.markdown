@@ -23,7 +23,7 @@ Glücklicherweise kannst du mehrere Kodierungsaufträge auf einmal einstellen, i
 
 ## Aufträge der Warteschlange hinzufügen
 
-Beginne, indem du eine [Quelle öffnest, einen Titel auswählst](../workflow/open-video-source.html) und [eine Voreinstellung auswählst](../workflow/select-preset.html). Wähle danach den `Zur Warteschlange hinzufügen` Knopf in der Werkzeugleiste aus.
+Beginne, indem du eine [Quelle öffnest, einen Titel auswählst](../workflow/open-video-source.markdown) und [eine Voreinstellung auswählst](../workflow/select-preset.markdown). Wähle danach den `Zur Warteschlange hinzufügen` Knopf in der Werkzeugleiste aus.
 
 <!-- .system-macos -->
 

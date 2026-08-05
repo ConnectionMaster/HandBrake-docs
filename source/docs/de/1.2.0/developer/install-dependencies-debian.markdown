@@ -90,7 +90,7 @@ Um die GTK [GUI](abbr:Graphical User Interface - Grafische Benutzeroberfläche) 
 
     sudo apt-get install intltool libappindicator-dev libdbus-glib-1-dev libglib2.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgtk-3-dev libgudev-1.0-dev libnotify-dev libwebkitgtk-3.0-dev
 
-Debian ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weiter Anweisungen.
+Debian ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weiter Anweisungen.
 
 [^nasm-sid]: Die Installation von Paketen, die neuer sind als die aus dem base Repository, könnte zu Inkompatibilitäten mit anderer Software führen, welche eine bestimmte Paketversion erwarten.
 

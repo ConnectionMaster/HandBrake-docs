@@ -89,7 +89,7 @@ Folgende Auflistung beschreibt die Unterstützung der aktuellen HandBrake Versio
 #### Ubuntu (Offizielles PPA)
 - Neuere Ubuntu LTS Versionen werden üblicherweise unterstützt
 - HandBrake wird üblicherweise für nicht-LTS Versionen bis zum Lebensende der Version mit Updates versorgt
-- Besuche [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.html) für mehr Informationen über das PPA
+- Besuche [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.markdown) für mehr Informationen über das PPA
 
 | Ubuntu Version     | Status              | Letzte Kompatible Version |
 |--------------------|---------------------|---------------------------|
@@ -101,7 +101,7 @@ Folgende Auflistung beschreibt die Unterstützung der aktuellen HandBrake Versio
 Benötigt eine aktuelle Linux Distribution und das `flatpak` Paket.
 
 #### Andere Distributionen
-Für andere Distributionen musst du mithilfe der verlinkten Artikel den [Linux](../developer/build-linux.html) bzw. den [BSD](../developer/build-bsd.html) Quellcode kompilieren.
+Für andere Distributionen musst du mithilfe der verlinkten Artikel den [Linux](../developer/build-linux.markdown) bzw. den [BSD](../developer/build-bsd.markdown) Quellcode kompilieren.
 
 <!-- /.system-linux -->
 <!-- .system-macos -->

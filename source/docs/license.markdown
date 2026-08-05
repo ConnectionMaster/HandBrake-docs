@@ -18,7 +18,7 @@ License Summary
 
 HandBrake Documentation (this work) is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 
-The following is a human-readable summary of the license, and is not a substitute for the [full legal license](license-cc-by-sa-4.0.html).
+The following is a human-readable summary of the license, and is not a substitute for the [full legal license](license-cc-by-sa-4.0.markdown).
 
 ## You are free to:
 

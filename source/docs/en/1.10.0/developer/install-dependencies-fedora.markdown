@@ -116,4 +116,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo dnf5 install desktop-file-utils gstreamer1-libav gstreamer1-plugins-base-devel gstreamer1-plugins-good gtk4-devel
 
-Fedora is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Fedora is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

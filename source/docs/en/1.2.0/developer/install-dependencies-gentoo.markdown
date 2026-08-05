@@ -45,6 +45,6 @@ Install dependencies.
 
     sudo emerge --ask fribidi dev-vcs/git harfbuzz jansson lame libass libogg libsamplerate libtheora libvorbis app-arch/lzma nasm opus speex x264
 
-Gentoo is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Gentoo is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.
 
 [^rebuild]: Previously installed dependencies may need to be rebuilt before building HandBrake.

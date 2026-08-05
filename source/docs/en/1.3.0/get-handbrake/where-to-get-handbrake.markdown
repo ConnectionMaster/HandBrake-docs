@@ -76,7 +76,7 @@ Linux users should install the [official release PPA](https://launchpad.net/~ste
 
 <!-- .success -->
 
-Continue to [Downloading and installing HandBrake](download-and-install.html).
+Continue to [Downloading and installing HandBrake](download-and-install.markdown).
 
 <!-- /.success -->
 

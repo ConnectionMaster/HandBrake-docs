@@ -106,7 +106,7 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo yum install dbus-glib-devel gstreamer1-devel gstreamer1-libav gstreamer1-plugins-base-devel intltool libgudev1-devel libnotify-devel webkitgtk4-devel
 
-CentOS is now prepared to build the HandBrake [CLI](abbr:Command Line Interface). See [Building HandBrake for Linux](build-linux.html) for further instructions.
+CentOS is now prepared to build the HandBrake [CLI](abbr:Command Line Interface). See [Building HandBrake for Linux](build-linux.markdown) for further instructions.
 
 [^opus-el6]: Installing newer packages than those available in the base repository may lead to incompatibility with other software expecting specific package versions.
 

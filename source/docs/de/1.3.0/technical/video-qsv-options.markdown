@@ -18,4 +18,4 @@ Redirect_URL:    video-qsv.html
 CLI guide
 =========
 
-Dieser Artikel wurde nach [Intel Quick Sync Video (QSV)](video-qsv.html) verschoben.
+Dieser Artikel wurde nach [Intel Quick Sync Video (QSV)](video-qsv.markdown) verschoben.

@@ -73,4 +73,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     doas pkg_add desktop-file-utils gettext-tools gstreamer1-plugins-good gstreamer1-plugins-libav gtk+3
 
-OpenBSD is now prepared to build HandBrake. See [Building HandBrake for BSD](build-bsd.html) for further instructions.
+OpenBSD is now prepared to build HandBrake. See [Building HandBrake for BSD](build-bsd.markdown) for further instructions.

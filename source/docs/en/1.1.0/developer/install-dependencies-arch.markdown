@@ -53,4 +53,4 @@ Install dependencies.
 
     sudo pacman -S base-devel cmake flac fontconfig freetype2 fribidi git harfbuzz jansson lame libass libbluray libogg libsamplerate libtheora libvorbis libvpx libxml2 opus python2 x264 x265 yasm
 
-Arch is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Arch is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

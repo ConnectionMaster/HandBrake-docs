@@ -34,7 +34,7 @@ So a 4 Core CPU can be nearly twice as fast as a Dual Core equivalent.
 
 HandBrake also supports encoding in Hardware with Intel QuickSync. This uses dedicated ASIC hardware on the processor to encode the video which leaves much of the CPU free for other tasks. This offers very high performance encoding at a reasonable quality if you have a Haswell or newer Intel Processor with HD Graphics on-board.
 
-See our [System Requirements](../technical/system-requirements.html) for details on recommended hardware for running HandBrake.
+See our [System Requirements](../technical/system-requirements.markdown) for details on recommended hardware for running HandBrake.
 
 ### Settings
 

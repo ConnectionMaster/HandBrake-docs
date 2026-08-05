@@ -110,4 +110,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo zypper in AppStream desktop-file-utils gstreamer-plugins-base-devel gstreamer-plugins-good gstreamer-plugins-libav gtk4-devel
 
-OpenSUSE is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+OpenSUSE is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

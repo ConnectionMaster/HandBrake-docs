@@ -81,11 +81,11 @@ HandBrake's QuickSync feature is only supported on Windows. Experimental Linux s
 
 #### Ubuntu (Official PPA)
 
-Several major versions are supported, see [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.html) for PPA details.
+Several major versions are supported, see [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.markdown) for PPA details.
 
 #### Other Linux
 
-For any other distribution, you must [compile from source](../developer/build-linux.html). 
+For any other distribution, you must [compile from source](../developer/build-linux.markdown). 
 
 
 <!-- /.system-linux -->

@@ -96,4 +96,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo swupd bundle-add desktop-dev
 
-Clear is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Clear is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

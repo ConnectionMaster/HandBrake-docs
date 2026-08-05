@@ -78,4 +78,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo apt-get install intltool libappindicator-dev libdbus-glib-1-dev libglib2.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgtk-3-dev libgudev-1.0-dev libnotify-dev libwebkitgtk-3.0-dev
 
-Debian is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Debian is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

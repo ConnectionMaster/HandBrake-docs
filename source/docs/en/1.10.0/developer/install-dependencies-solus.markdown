@@ -86,4 +86,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo eopkg install appstream desktop-file-utils gstreamer-1.0-plugins-good gstreamer-1.0-libav gstreamer-1.0-plugins-base-devel libgtk-4-devel
 
-Solus is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Solus is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

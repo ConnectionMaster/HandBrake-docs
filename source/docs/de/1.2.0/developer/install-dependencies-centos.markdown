@@ -106,7 +106,7 @@ Installiere die notwendigen Abhängigkeiten für die grafische Benutzeroberfläc
 
     sudo yum install dbus-glib-devel gstreamer1-devel gstreamer1-libav gstreamer1-plugins-base-devel intltool libgudev1-devel libnotify-devel webkitgtk4-devel
 
-CentOS ist nun bereit die HandBrake [CLI](abbr:Command Line Interface - Kommandozeile) zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weiterführende Instruktionen.
+CentOS ist nun bereit die HandBrake [CLI](abbr:Command Line Interface - Kommandozeile) zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weiterführende Instruktionen.
 
 [^opus-el6]: Die Installation von Paketen, die neuer sind als die aus dem base Repository, könnte zu Inkompatibilitäten mit anderer Software führen, welche eine bestimmte Paketversion erwarten.
 

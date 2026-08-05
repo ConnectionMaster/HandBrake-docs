@@ -79,4 +79,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo apk add desktop-file-utils gst-libav gst-plugins-base-dev gst-plugins-good gtk+3.0-dev
 
-Alpine is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Alpine is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

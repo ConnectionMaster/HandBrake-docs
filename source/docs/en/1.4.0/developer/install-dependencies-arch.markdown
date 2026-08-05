@@ -82,4 +82,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo pacman -S dbus-glib gstreamer gst-libav gst-plugins-base intltool libgudev libnotify webkit2gtk
 
-Arch is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Arch is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

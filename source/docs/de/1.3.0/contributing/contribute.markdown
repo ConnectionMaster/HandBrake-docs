@@ -25,7 +25,7 @@ Lese dir zuerst den [Code of Conduct](https://github.com/HandBrake/HandBrake/blo
 
 ## Kommunikation
 
-Bitte frage das HandBrake Team über einen der [Community Support](../help/community-support.html) channels, bevor du größere Features hinzufügen oder andere weitreichende Änderungen vornehmen willst.
+Bitte frage das HandBrake Team über einen der [Community Support](../help/community-support.markdown) channels, bevor du größere Features hinzufügen oder andere weitreichende Änderungen vornehmen willst.
 
 *Falls du nicht kommunizierst an was du arbeitest, könnten Duplikate entstehen oder deine Beiträge abgelehnt werden.*
 
@@ -35,7 +35,7 @@ Bitte frage das HandBrake Team über einen der [Community Support](../help/commu
 
 HandBrake's Benutzeroberfläche verändert sich laufend. Spezielle Pflege und Kentnisse werden benötigt, um die Verwendbarkeit zu verbessern und zeitgleich die vielen professionellen Features beizubehalten und zu erweitern. Icons und andere grafische Assets werden auch manchmal benötigt wenn sich die Oberfläche verändert und modernisiert wird.
 
-Das HandBrake Team freut sich über Beiträge von Benutzeroberflächen und Grafikdesignern. Bitte stelle dich in einen der [Community Support](../help/community-support.html) channels vor. Jemand wird sich gerne mit dir über die Arbeiten die andere gerade vornehmen, deine Interessen und wie du helfen kannst, unterhalten.
+Das HandBrake Team freut sich über Beiträge von Benutzeroberflächen und Grafikdesignern. Bitte stelle dich in einen der [Community Support](../help/community-support.markdown) channels vor. Jemand wird sich gerne mit dir über die Arbeiten die andere gerade vornehmen, deine Interessen und wie du helfen kannst, unterhalten.
 
 ### Code
 Entwickler die Quellcode beitragen möchten, sollten den [HandBrake Quellcode auf GitHub](https://github.com/HandBrake/HandBrake) auschecken und einen Pull Request auf GitHub für jeden Beitrag erstellen. Um mehr über diesen Workflow zu erfahren, lese den offiziellen GitHub Guide: [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/).

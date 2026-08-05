@@ -24,7 +24,7 @@ First and foremost, familiarize yourself with the project's [Code of Conduct](ht
 
 ## Communication
 
-Please ask the HandBrake Team via one of the [Community Support](../help/community-support.html) channels before adding major features or making other broad changes.
+Please ask the HandBrake Team via one of the [Community Support](../help/community-support.markdown) channels before adding major features or making other broad changes.
 
 *Failure to communicate what you are working on may lead to duplicated efforts or rejection of your contributions.*
 
@@ -34,7 +34,7 @@ Please ask the HandBrake Team via one of the [Community Support](../help/communi
 
 HandBrake's user interface is constantly evolving. Special care and expertise are required to enhance usability while retaining and expanding its many professional features. Icons and other graphic assets are also needed from time to time, as user interface updates and modernization dictate.
 
-The HandBrake Team welcomes contributions from user interface and graphic designers. Please introduce yourself via one of the [Community Support](../help/community-support.html) channels and someone will be glad to discuss what others are currently working on, your interests, and how you can help.
+The HandBrake Team welcomes contributions from user interface and graphic designers. Please introduce yourself via one of the [Community Support](../help/community-support.markdown) channels and someone will be glad to discuss what others are currently working on, your interests, and how you can help.
 
 ### Code
 

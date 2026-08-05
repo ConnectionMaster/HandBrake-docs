@@ -81,4 +81,4 @@ Für die Intel Quick Video Sync Unterstützung, installiere die QSV Abhängigkei
 
     sudo pacman -S libva libdrm
 
-Arch ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weitere Instruktionen.
+Arch ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weitere Instruktionen.

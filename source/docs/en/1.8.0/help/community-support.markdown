@@ -16,15 +16,15 @@ License_URL:     https://handbrake.fr/docs/license.html
 Community support
 =================
 
-If you run into problems using HandBrake, first take a look at this documentation's [Table of contents](../table-of-contents.html)—the information you need may be just a click away.
+If you run into problems using HandBrake, first take a look at this documentation's [Table of contents](../table-of-contents.markdown)—the information you need may be just a click away.
 
 Didn't find it? Keep reading.
 
 ## Activity Logs
 
-Providing an Activity Log is **required** for all support requests. It is the fastest and most accurate way for the HandBrake Team to understand any potential issues you may be facing. Logs are stored *only* on your computer, so please read more about where to find your [Activity Logs](activity-log.html) and how to share them when requesting support.
+Providing an Activity Log is **required** for all support requests. It is the fastest and most accurate way for the HandBrake Team to understand any potential issues you may be facing. Logs are stored *only* on your computer, so please read more about where to find your [Activity Logs](activity-log.markdown) and how to share them when requesting support.
 
-You may think you have a simple question for which providing a log seems unnecessary. Please read the section, *Why Activity Logs are required for support* on the [Activity Log](activity-log.html) article. *Without an Activity Log, the HandBrake Team simply cannot provide technical support.*
+You may think you have a simple question for which providing a log seems unnecessary. Please read the section, *Why Activity Logs are required for support* on the [Activity Log](activity-log.markdown) article. *Without an Activity Log, the HandBrake Team simply cannot provide technical support.*
 
 ## Community Forums
 
@@ -34,11 +34,11 @@ Please read and abide by our [Code of Conduct](https://github.com/HandBrake/Hand
 
 Developers and keen users may report bugs on HandBrake's [issue tracker on GitHub](https://github.com/HandBrake/HandBrake/issues). 
 
-Please make sure to fill out all requested information, including an [Activity Log](activity-log.html).
+Please make sure to fill out all requested information, including an [Activity Log](activity-log.markdown).
 
 ## IRC discussion channels
 
-Real-time chat is available via #HandBrake on the [Libera.Chat](https://libera.chat/) IRC Network. Make sure to provide an [Activity Log](activity-log.html) when requesting support.
+Real-time chat is available via #HandBrake on the [Libera.Chat](https://libera.chat/) IRC Network. Make sure to provide an [Activity Log](activity-log.markdown) when requesting support.
 
 Note that HandBrake's developers are located in various timezones around the world, and have lives and jobs outside of HandBrake and its community. It's possible that nobody will be able to answer your support request on IRC right away. Be patient for awhile or ask on the forums.
 

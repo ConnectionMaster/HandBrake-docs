@@ -87,4 +87,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
     sudo yum install dbus-glib-devel gstreamer1-devel gstreamer1-libav gstreamer1-plugins-base-devel intltool libgudev1-devel libnotify-devel
     sudo yum install webkit2gtk3-devel || sudo yum install webkitgtk4-devel || sudo yum install webkitgtk3-devel
 
-Fedora is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Fedora is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

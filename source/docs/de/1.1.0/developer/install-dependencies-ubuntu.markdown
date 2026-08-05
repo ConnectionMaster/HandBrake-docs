@@ -92,4 +92,4 @@ Falls du Ubuntu 18.04 LTS verwendest, installiere folgende zusätzliche Abhängi
 
     sudo apt-get install gstreamer1.0-libav
 
-Ubuntu ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weitere Anweisungen.
+Ubuntu ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weitere Anweisungen.

@@ -97,4 +97,4 @@ Für Intel Quick Sync Video Unterstützung, installiere die QSV Abhängigkeiten.
 
     sudo swupd bundle-add devpkg-libva devpkg-libdrm
 
-Clear ist jetzt bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weitere Instruktionen.
+Clear ist jetzt bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weitere Instruktionen.

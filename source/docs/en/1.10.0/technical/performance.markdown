@@ -18,13 +18,13 @@ Performance
 
 Video encoding is one of the most resource intensive activities for computers.
 
-HandBrake’s software video encoders, video filters, audio encoders, and other processes benefit from fast CPU and memory. HandBrake’s hardware video encoders also benefit from modern GPU hardware. See the [System requirements](system-requirements.html) article for minimum hardware requirements to use HandBrake.
+HandBrake’s software video encoders, video filters, audio encoders, and other processes benefit from fast CPU and memory. HandBrake’s hardware video encoders also benefit from modern GPU hardware. See the [System requirements](system-requirements.markdown) article for minimum hardware requirements to use HandBrake.
 
 To provide a comparison of how various features and settings affect encoding performance, we encoded a high quality, 4K 2160p24 (3840x1714 actual) version of the open film *[Tears Of Steel](https://mango.blender.org/)*. The `Source` duration is 12 minutes 14 seconds and contains H.264 video, lossless FLAC stereo audio, and Dolby Digital (AC-3) 5.1 surround audio.
 
 ## Performance comparison between official presets
 
-A `Preset` is a group of settings specifically tailored for the software or device you want your videos to play on. Read more about HandBrake’s [Official presets](official-presets.html).
+A `Preset` is a group of settings specifically tailored for the software or device you want your videos to play on. Read more about HandBrake’s [Official presets](official-presets.markdown).
 
 `Presets` may differ from each other in multiple ways. For example: video resolution, filters, encoder, encoder preset, and quality; audio tracks (stereo, surround sound, or both), encoders, and quality; subtitle tracks and types; chapter markers; container options; and compatibility concerns. Because so many variables can differ between HandBrake’s `Presets`, performance can vary greatly.
 
@@ -189,7 +189,7 @@ Video quality can have a substantial impact on encoding speed and file size.
 
 In this test, we’ve encoded the same high quality 2160p 4K video `Source` to 1080p while adjusting only the video quality, leaving all other settings alone.
 
-Higher RF values lead to lower picture quality and smaller file sizes, while lower RF values lead to higher picture quality and larger file sizes. You can read more about this on the [Adjusting quality](../workflow/adjust-quality.html) article.
+Higher RF values lead to lower picture quality and smaller file sizes, while lower RF values lead to higher picture quality and larger file sizes. You can read more about this on the [Adjusting quality](../workflow/adjust-quality.markdown) article.
 
 The following results were produced using a Mid-2010 Mac Pro equipped with an Intel Xeon w3680 CPU with 6 cores and 12 threads running at 3.33 GHz, 24 GB memory, and macOS Mojave.
 
@@ -235,7 +235,7 @@ The following results were produced using a PC equipped with an Intel Xeon E5-26
 
 The higher resolution encodes take more time and create larger file sizes. The lower resolution encodes take less time and create smaller file sizes, at the expense of significantly reducing detail.
 
-It is a good idea to increase the quality by lowering RF 1-2 points for lower resolution encodes, as small defects in quality can become more apparent when the video is scaled up to fill a large display. Likewise, higher resolution encodes usually do not need as high quality to look good, as minimal or no scaling is necessary on modern displays. You can read more about this on the [Adjusting quality](../workflow/adjust-quality.html) article.
+It is a good idea to increase the quality by lowering RF 1-2 points for lower resolution encodes, as small defects in quality can become more apparent when the video is scaled up to fill a large display. Likewise, higher resolution encodes usually do not need as high quality to look good, as minimal or no scaling is necessary on modern displays. You can read more about this on the [Adjusting quality](../workflow/adjust-quality.markdown) article.
 
 In practical terms, the resolution of your `Source` video and the `Preset` you select will be a major factor in file size, encoding speed, and total encoding time.
 

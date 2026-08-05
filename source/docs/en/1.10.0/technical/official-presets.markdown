@@ -150,10 +150,10 @@ HandBrake's Hardware `Presets` encode video using dedicated media engines provid
 
 More information on specific hardware encoders:
 
-- [Intel Quick Sync Video (QSV)](video-qsv.html)
-- [NVIDIA NVENC](video-nvenc.html)
-- [AMD VCN](video-vcn.html)
-- [Microsoft Media Foundation (MF)](video-mediafoundation.html)
+- [Intel Quick Sync Video (QSV)](video-qsv.markdown)
+- [NVIDIA NVENC](video-nvenc.markdown)
+- [AMD VCN](video-vcn.markdown)
+- [Microsoft Media Foundation (MF)](video-mediafoundation.markdown)
   - For Windows on ARM devices such as Qualcomm Snapdragon
 
 HandBrake will disable any Hardware `Preset` where the associated hardware and software drivers are not detected, or are outdated.

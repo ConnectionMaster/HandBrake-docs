@@ -19,7 +19,7 @@ Source formats
 
 One of HandBrake's strengths is its ability to open a wide variety of video formats. HandBrake uses [FFmpeg](https://ffmpeg.org/) under the hood and generally can open whatever FFmpeg will, in addition to disc-based formats like DVD and Blu-ray.
 
-**Note:** HandBrake does not defeat or circumvent [copy protection](https://en.wikipedia.org/wiki/Copy_protection) of any kind. It does not work with video files employing [Digital Rights Management](https://en.wikipedia.org/wiki/Digital_rights_management) (DRM). See [About HandBrake](../about.html) for more information about what HandBrake *does* and *does not*.
+**Note:** HandBrake does not defeat or circumvent [copy protection](https://en.wikipedia.org/wiki/Copy_protection) of any kind. It does not work with video files employing [Digital Rights Management](https://en.wikipedia.org/wiki/Digital_rights_management) (DRM). See [About HandBrake](../about.markdown) for more information about what HandBrake *does* and *does not*.
 
 ## Videos made by mobile phones, tablets, and many video cameras and DSLRs
 

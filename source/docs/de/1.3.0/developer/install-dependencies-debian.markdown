@@ -118,7 +118,7 @@ Für Intel Quick Sync Video Unterstützung, installiere die QSV Abhängigkeiten.
 
     sudo apt-get install libva-dev libdrm-dev
  
-Debian ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weiter Anweisungen.
+Debian ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weiter Anweisungen.
 
 [^nasm-newer]: Die Installation von Paketen, die neuer sind als die aus dem base Repository, könnte zu Inkompatibilitäten mit anderer Software führen, welche eine bestimmte Paketversion erwarten.
 

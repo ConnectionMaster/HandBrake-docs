@@ -93,4 +93,4 @@ If you are running Ubuntu 18.04 LTS, install the additional graphical interface 
 
     sudo apt-get install gstreamer1.0-libav
 
-Ubuntu is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Ubuntu is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

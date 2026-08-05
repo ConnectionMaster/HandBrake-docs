@@ -17,4 +17,4 @@ Redirect_URL:    command-line-reference.html
 CLI guide
 =========
 
-This article has been moved to [Command Line Reference](command-line-reference.html).
+This article has been moved to [Command Line Reference](command-line-reference.markdown).

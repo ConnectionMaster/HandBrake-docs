@@ -84,4 +84,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo pkg install desktop-file-utils gettext gstreamer1-libav gstreamer1-plugins-gdkpixbuf gtk3
 
-FreeBSD is now prepared to build HandBrake. See [Building HandBrake for BSD](build-bsd.html) for further instructions.
+FreeBSD is now prepared to build HandBrake. See [Building HandBrake for BSD](build-bsd.markdown) for further instructions.

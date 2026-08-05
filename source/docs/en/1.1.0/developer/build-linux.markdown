@@ -17,18 +17,18 @@ License_URL:     https://handbrake.fr/docs/license.html
 Building HandBrake for Linux
 ============================
 
-If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.html) for more information.
+If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.markdown) for more information.
 
 ## Installing dependencies
 
 Dependency installation instructions are available for the following distributions.
 
-- [Arch](install-dependencies-arch.html)
-- [CentOS](install-dependencies-centos.html)
-- [Debian](install-dependencies-debian.html)
-- [Fedora](install-dependencies-fedora.html)
-- [Gentoo](install-dependencies-gentoo.html)
-- [Ubuntu](install-dependencies-ubuntu.html)
+- [Arch](install-dependencies-arch.markdown)
+- [CentOS](install-dependencies-centos.markdown)
+- [Debian](install-dependencies-debian.markdown)
+- [Fedora](install-dependencies-fedora.markdown)
+- [Gentoo](install-dependencies-gentoo.markdown)
+- [Ubuntu](install-dependencies-ubuntu.markdown)
 
 HandBrake's experimental support for Intel Quick Sync Video on Linux requires the [Intel Media SDK](https://github.com/Intel-Media-SDK/MediaSDK/releases).
 

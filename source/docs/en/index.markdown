@@ -20,21 +20,21 @@ English documentation is currently available for the following HandBrake version
 
 Current release:
 
-- **[HandBrake 1.10.0](1.10.0/)**
+- **[HandBrake 1.10.0](1.10.0/index.markdown)**
 
 Development release:
 
-- [HandBrake Latest](latest/)
+- [HandBrake Latest](latest/index.markdown)
 
 Previous releases:
 
-- [HandBrake 1.9.0-1.9.2](1.9.0/)
-- [HandBrake 1.8.0-1.8.1](1.8.0/)
-- [HandBrake 1.7.0-1.7.3](1.7.0/)
-- [HandBrake 1.6.0-1.6.1](1.6.0/)
-- [HandBrake 1.5.0-1.5.1](1.5.0/)
-- [HandBrake 1.4.0-1.4.2](1.4.0/)
-- [HandBrake 1.3.0-1.3.3](1.3.0/)
-- [HandBrake 1.2.0-1.2.2](1.2.0/)
-- [HandBrake 1.1.0-1.1.2](1.1.0/)
-- [HandBrake 1.0.0–1.0.7](1.0.0/)
+- [HandBrake 1.9.0-1.9.2](1.9.0/index.markdown)
+- [HandBrake 1.8.0-1.8.1](1.8.0/index.markdown)
+- [HandBrake 1.7.0-1.7.3](1.7.0/index.markdown)
+- [HandBrake 1.6.0-1.6.1](1.6.0/index.markdown)
+- [HandBrake 1.5.0-1.5.1](1.5.0/index.markdown)
+- [HandBrake 1.4.0-1.4.2](1.4.0/index.markdown)
+- [HandBrake 1.3.0-1.3.3](1.3.0/index.markdown)
+- [HandBrake 1.2.0-1.2.2](1.2.0/index.markdown)
+- [HandBrake 1.1.0-1.1.2](1.1.0/index.markdown)
+- [HandBrake 1.0.0–1.0.7](1.0.0/index.markdown)

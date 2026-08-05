@@ -41,6 +41,6 @@ Abhängigkeiten installieren:
 
     sudo emerge --ask fribidi dev-vcs/git harfbuzz jansson lame libass libogg libsamplerate libtheora libvorbis opus x264
 
-Gentoo ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für mehr Anweisungen.
+Gentoo ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für mehr Anweisungen.
 
 [^rebuild]: Zuvor installierte Abhängigkeiten müssen eventuell vor dem HandBrake Build neu gebaut werden.

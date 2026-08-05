@@ -19,13 +19,13 @@ Performance
 
 Videokodierung ist eine der am meisten fordernden Aktivitäten für Computer.
 
-Eine schnelle CPU und Memory helfen HandBrake's Software Videokodierer, Videofilter, Audiokodierer und anderen Prozessen. HandBrake's Hardware Videokodierer könnenn auch einen Nutzen aus moderner GPU Hardware ziehen. Im [Systemanforderungen](system-requirements.html) Artikel sind die minimalen Hardwareanforderungen für die Nutzung von HandBrake aufgelistet.
+Eine schnelle CPU und Memory helfen HandBrake's Software Videokodierer, Videofilter, Audiokodierer und anderen Prozessen. HandBrake's Hardware Videokodierer könnenn auch einen Nutzen aus moderner GPU Hardware ziehen. Im [Systemanforderungen](system-requirements.markdown) Artikel sind die minimalen Hardwareanforderungen für die Nutzung von HandBrake aufgelistet.
 
 Um einen Vergleich zu bieten, wie verschiedene Features und Einstellungen die Kodierungsperformance beeinflussen, haben wir eine High Quality 4K 2160p24 (eigentlich 3840x1714) Version des offenen Films *[Tears Of Steel](https://mango.blender.org/)* kodiert. Die Laufzeit der `Quelldatei` ist 12 Minuten und 14 Sekunden und enthält ein H.264 Video, verlustfreies FLAC Stereo Audio und Dolby Digital (AC-3) 5.1 Surround Audio.
 
 ## Performance Vergleich zwischen offiziellen Voreinstellungen
 
-Eine `Voreinstellung` ist eine Gruppe von Einstellungen, die auf die Software oder das Gerät auf dem du das Video abspielen möchtest, zugeschnitten ist. Lese [hier](official-presets.html) mehr über HandBrake's offizielle Voreinstellungen.
+Eine `Voreinstellung` ist eine Gruppe von Einstellungen, die auf die Software oder das Gerät auf dem du das Video abspielen möchtest, zugeschnitten ist. Lese [hier](official-presets.markdown) mehr über HandBrake's offizielle Voreinstellungen.
 `Voreinstellungen` unterscheiden sich auf mehrere Arten. Zum Beispiel: Videoauflösung, Filter, Kodierer, Kodierervoreinstellung und Qualität; Audiospuren (Stereo, Surround Sound oder beides), Kodierer und Qualität; Untertitelspuren und -typen; Kapitelmarkierungen; Containeroptionen und Kompatibilität. Durch die große Anzahl an Variablen kann sich die Performance zuwischen verschiedenen `Voreinstellungen` stark unterscheiden.
 
 HandBrake's General `Voreinstellungen` sind so designed, dass sie die Kompatibilität mit einer großen Anzahl von modernen Geräten und Software sicherstellen. Zudem legen sie vernünftige Einstellungen für Kodierungsperformance, Qualität und Dateigröße fest.
@@ -190,7 +190,7 @@ Die Videoqualität kann eine bedeutende Auswirkung auf die Kodiergeschwindigkeit
 
 In diesem Test haben wir dieselbe 2160p 4K Video `Quelle` zu 1080p kodiert und dabei nur die Videoqualität geändert und alle anderen Einstellungen gleich gelassen.
 
-Höhere RF Werte bedeuten eine niedriegere Bildqualität und kleinere Dateien, niedrigere RF Werte eine höhere Bildqualität und größere Dateien. Du kannst darüber mehr in dem [Qualität einstellen](../workflow/adjust-quality.html) Artikel lesen.
+Höhere RF Werte bedeuten eine niedriegere Bildqualität und kleinere Dateien, niedrigere RF Werte eine höhere Bildqualität und größere Dateien. Du kannst darüber mehr in dem [Qualität einstellen](../workflow/adjust-quality.markdown) Artikel lesen.
 
 Die folgenden Resultate wurden mit einem Mitte-2010 Mac Pro mit einer Intel Xeon w3680 CPU mit 6 Kernen und 12 Threads bei 3.33 GHz, 24 GB Memory und macOS Mojave erzeugt.
 
@@ -236,7 +236,7 @@ Die folgenden Resultate wurden mit einem PC mit einer Intel Xeon E5-2699 v4 CPU 
 
 Die Kodierprozesse mit einer größeren Auflösung benötigen mehr Zeit und erzeugen größere Dateien. Die Kodierprozesse mit einer niedrigeren Auflösung sind schneller fertig und erzeugen kleinere Dateien, haben dafür allerdings auch eine geringere Qualität.
 
-Es ist eine gute Idee die Qualität um 1-2 RF Punkte für Kodierprozesse mit niedrigerer Auflösung zu reduzieren, da kleinere Defekte in der Qualität offensichtlicher werden, wenn das Video auf einem großen Display abgespielt wird. Gleichermaßen benötigen Kodierprozesse mit einer höheren Auflösung üblicherweise nicht so höhe Qualitätseinstellungen, da auf modernen Displays nur eine minimale oder gar keine Skalierung notwendig ist. Du kannst hierüber mehr in dem [Qualität einstellen](../workflow/adjust-quality.html) Artikel lesen.
+Es ist eine gute Idee die Qualität um 1-2 RF Punkte für Kodierprozesse mit niedrigerer Auflösung zu reduzieren, da kleinere Defekte in der Qualität offensichtlicher werden, wenn das Video auf einem großen Display abgespielt wird. Gleichermaßen benötigen Kodierprozesse mit einer höheren Auflösung üblicherweise nicht so höhe Qualitätseinstellungen, da auf modernen Displays nur eine minimale oder gar keine Skalierung notwendig ist. Du kannst hierüber mehr in dem [Qualität einstellen](../workflow/adjust-quality.markdown) Artikel lesen.
 
 Abschließend ist zu sagen, dass die Auflösung deiner `Quelle` und die `Voreinstellung` die du auswählst, einen großen Einfluss auf die Dateigröße, Kodiergeschwindigkeit und Gesamtkodierzeit haben wird.
 

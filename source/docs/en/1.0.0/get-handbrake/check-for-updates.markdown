@@ -57,6 +57,6 @@ Manually checking for updates is easy. From the `Help` menu, select `Check for U
 
 ## Next steps
 
-Continue to [Opening a video source](../workflow/open-video-source.html).
+Continue to [Opening a video source](../workflow/open-video-source.markdown).
 
 <!-- /.continue -->

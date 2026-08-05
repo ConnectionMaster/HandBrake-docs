@@ -16,7 +16,7 @@ License_URL:     https://handbrake.fr/docs/license.html
 Subtitles
 =========
 
-If you wish to handle Audio and Subtitle tracks automatically, See the [Audio and Subtitle Defaults](../workflow/audio-subtitle-defaults.html) guide.
+If you wish to handle Audio and Subtitle tracks automatically, See the [Audio and Subtitle Defaults](../workflow/audio-subtitle-defaults.markdown) guide.
 
 Otherwise, if you wish to manually add subtitle tracks, press the "Tracks" button on the "Subtitles" tab and choose the appropriate option. A new track will be displayed that you can configure as you require.
 

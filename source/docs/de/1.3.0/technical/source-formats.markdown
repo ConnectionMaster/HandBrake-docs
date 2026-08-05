@@ -18,7 +18,7 @@ Unterstützte Quellformate
 ==============
 Eine von HandBrake's Stärken ist seine Fähigkeit eine große Anzahl verschiedener Videoformate einlesen zu können. HandBrake verwendet [FFmpeg](https://ffmpeg.org/) und kann somit alles öffnen was FFmpeg öffnet und zusätzlich disk basierte Formate wie DVD und Blu-Ray.
 
-**Beachte:** HandBrake bricht oder umgeht keinen [Kopierschutz](https://de.wikipedia.org/wiki/Kopierschutz) irgendeiner Art. Es funktioniert nicht mit Videodateien die [Digitale Rechteverwaltung](https://de.wikipedia.org/wiki/Digitale_Rechteverwaltung) (kurz: DRM) verwenden. Siehe [Über HandBrake](../about.html) für mehr Informationen über was HandBrake *kann* und was es *nicht kann*.
+**Beachte:** HandBrake bricht oder umgeht keinen [Kopierschutz](https://de.wikipedia.org/wiki/Kopierschutz) irgendeiner Art. Es funktioniert nicht mit Videodateien die [Digitale Rechteverwaltung](https://de.wikipedia.org/wiki/Digitale_Rechteverwaltung) (kurz: DRM) verwenden. Siehe [Über HandBrake](../about.markdown) für mehr Informationen über was HandBrake *kann* und was es *nicht kann*.
 
 ## Videos die von Handys, Tablets und vielen Videokameras und Spiegelreflexkameras erstellt wurden
 

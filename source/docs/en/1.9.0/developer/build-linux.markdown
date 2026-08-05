@@ -16,24 +16,24 @@ License_URL:     https://handbrake.fr/docs/license.html
 Building HandBrake for Linux
 ============================
 
-If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.html) for more information.
+If you have installed a HandBrake package from your distribution or other third-party package repository, please remove it before proceeding. See the section, *Warning about broken third-party builds* on [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.markdown) for more information.
 
 ## Installing dependencies
 
 Dependency installation instructions are available for the following distributions.
 
-- [Alpine](install-dependencies-alpine.html)
-- [Arch](install-dependencies-arch.html)
-- [Clear](install-dependencies-clear.html)
-- [Debian](install-dependencies-debian.html)
-- [Enterprise Linux](install-dependencies-el.html)
-- [Fedora](install-dependencies-fedora.html)
-- [Gentoo](install-dependencies-gentoo.html)
-- [Mageia](install-dependencies-mageia.html)
-- [OpenSUSE](install-dependencies-opensuse.html)
-- [Solus](install-dependencies-solus.html)
-- [Ubuntu](install-dependencies-ubuntu.html)
-- [Void](install-dependencies-void.html)
+- [Alpine](install-dependencies-alpine.markdown)
+- [Arch](install-dependencies-arch.markdown)
+- [Clear](install-dependencies-clear.markdown)
+- [Debian](install-dependencies-debian.markdown)
+- [Enterprise Linux](install-dependencies-el.markdown)
+- [Fedora](install-dependencies-fedora.markdown)
+- [Gentoo](install-dependencies-gentoo.markdown)
+- [Mageia](install-dependencies-mageia.markdown)
+- [OpenSUSE](install-dependencies-opensuse.markdown)
+- [Solus](install-dependencies-solus.markdown)
+- [Ubuntu](install-dependencies-ubuntu.markdown)
+- [Void](install-dependencies-void.markdown)
 
 HandBrake’s optional experimental support for Intel Quick Sync Video on Linux requires installing the Intel Media SDK and its dependencies. See the [Intel Media SDK Releases](https://github.com/Intel-Media-SDK/MediaSDK/releases) page and [Intel Media SDK Build Instructions](https://github.com/Intel-Media-SDK/MediaSDK#how-to-build).
 

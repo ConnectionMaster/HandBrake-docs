@@ -97,4 +97,4 @@ Ensure the newly installed packages have search path priority.
 
     export PATH="${LOCALBASE:-/usr/pkg}/bin:${PATH}"
 
-NetBSD is now prepared to build HandBrake. See [Building HandBrake for BSD](build-bsd.html) for further instructions.
+NetBSD is now prepared to build HandBrake. See [Building HandBrake for BSD](build-bsd.markdown) for further instructions.

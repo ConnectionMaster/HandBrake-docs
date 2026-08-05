@@ -93,4 +93,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo xbps-install -u desktop-file-utils gettext glib-devel gst-libav gst-plugins-base1-devel gst-plugins-good1 gtk+3-devel
 
-Void is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Void is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

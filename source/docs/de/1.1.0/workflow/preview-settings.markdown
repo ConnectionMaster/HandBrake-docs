@@ -74,12 +74,12 @@ Wenn du mit deiner Begutachtung der `Vorschau` fertig bist, kannst du das `Vorsc
 
 <!-- .success -->
 
-Fahre fort zu [Kodierung starten](start-encoding.html).
+Fahre fort zu [Kodierung starten](start-encoding.markdown).
 
 <!-- /.success -->
 <!-- .fail -->
 
-Falls die `Vorschau` die du erstellt hast eine schlechte Qualität hat oder anderweitig mangelhaft ist, musst du eventuell die [Qualität einstellen](adjust-quality.html) oder eine andere [Voreinstellung](select-preset.html) wählen. Danach kannst du wieder eine neue `Vorschau` erstellen um die Änderungen zu testen.
+Falls die `Vorschau` die du erstellt hast eine schlechte Qualität hat oder anderweitig mangelhaft ist, musst du eventuell die [Qualität einstellen](adjust-quality.markdown) oder eine andere [Voreinstellung](select-preset.markdown) wählen. Danach kannst du wieder eine neue `Vorschau` erstellen um die Änderungen zu testen.
 
 <!-- /.fail -->
 

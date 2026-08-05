@@ -24,7 +24,7 @@ First and foremost, familiarize yourself with the project's [Code of Conduct](ht
 
 ## Communication
 
-Please ask the HandBrake Team via one of the [Community Support](../help/community-support.html) channels before making changes as this will increase the likely hood of a change being accepted.
+Please ask the HandBrake Team via one of the [Community Support](../help/community-support.markdown) channels before making changes as this will increase the likely hood of a change being accepted.
 
 *Failure to communicate what you are working on may lead to duplicated efforts or rejection of your contributions.*
 
@@ -35,7 +35,7 @@ Please ask the HandBrake Team via one of the [Community Support](../help/communi
 
 HandBrake's user interface is constantly evolving. Special care and expertise are required to enhance usability while retaining and expanding its many professional features. Icons and other graphic assets are also needed from time to time, as user interface updates and modernization dictate.
 
-The HandBrake Team welcomes contributions from user interface and graphic designers. Please introduce yourself via one of the [Community Support](../help/community-support.html) channels and someone will be glad to discuss what others are currently working on, your interests, and how you can help.
+The HandBrake Team welcomes contributions from user interface and graphic designers. Please introduce yourself via one of the [Community Support](../help/community-support.markdown) channels and someone will be glad to discuss what others are currently working on, your interests, and how you can help.
 
 ### Code
 
@@ -44,7 +44,7 @@ Developers wanting to contribute code should check out the [HandBrake source cod
 [Open issues](https://github.com/HandBrake/HandBrake/issues) are good candidates for learning and fixing various parts of the code base. 
 In particular, look out for tickets labelled as ["Patch / Help Welcome"](https://github.com/HandBrake/HandBrake/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Patch%20%2F%20Help%20Welcome%22) as these are good candidates to start with.
  
-Please introduce yourself on a ticket or one of our [Community](../help/community-support.html) channels before working on a issue. 
+Please introduce yourself on a ticket or one of our [Community](../help/community-support.markdown) channels before working on a issue. 
 
 The developers that work on the HandBrake project are volunteers. As such, it is not always possible to provide timely feedback or mentoring. Please be patient for a response. 
 

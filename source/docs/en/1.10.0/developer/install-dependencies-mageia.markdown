@@ -82,4 +82,4 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo dnf install desktop-file-utils gtk+3.0-devel gstreamer1.0-libav gstreamer1.0-plugins-good gstreamer1.0-plugins-base-devel
 
-Mageia is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+Mageia is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.

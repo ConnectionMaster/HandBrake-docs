@@ -22,7 +22,7 @@ A `Preset` is a group of settings specifically tailored for the software or devi
 
 HandBrake includes a number of official `Presets` for specific devices and for general use.
 
-Once you've opened a `Source`, select the `Preset` that most closely describes the device you want your videos to work on. For instance, if you want to play your videos on a Roku that supports 1080p High Definition, choose the `Roku 1080p30 Surround` preset under `Devices`. See the technical documentation for more information about [official presets](../technical/official-presets.html).
+Once you've opened a `Source`, select the `Preset` that most closely describes the device you want your videos to work on. For instance, if you want to play your videos on a Roku that supports 1080p High Definition, choose the `Roku 1080p30 Surround` preset under `Devices`. See the technical documentation for more information about [official presets](../technical/official-presets.markdown).
 
 <!-- .system-linux -->
 
@@ -46,7 +46,7 @@ If your device is not listed, or you wish to play your videos on a computer, the
 
 If you've previously saved one of your own `Presets`, you may select it in the same way as the official `Presets`.
 
-You can learn more about [Custom presets](../advanced/custom-presets.html) in the advanced features section.
+You can learn more about [Custom presets](../advanced/custom-presets.markdown) in the advanced features section.
 
 <!-- .continue -->
 
@@ -54,7 +54,7 @@ You can learn more about [Custom presets](../advanced/custom-presets.html) in th
 
 <!-- .success -->
 
-Continue to [Adjusting quality](adjust-quality.html).
+Continue to [Adjusting quality](adjust-quality.markdown).
 
 <!-- /.success -->
 

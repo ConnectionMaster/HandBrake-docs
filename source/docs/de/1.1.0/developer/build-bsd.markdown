@@ -16,13 +16,13 @@ License_URL:     https://handbrake.fr/docs/license.html
 HandBrake für BSD bauen
 ==========================
 
-Falls du ein HandBrake Paket von deiner Distribution oder einem anderen Drittanbieter Repository installiert hast, entferne es bitte bevor zu weitermachst. Siehe den Abschnitt *Warnung über nicht funktionierende Drittanbieter Builds* in [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.html) für mehr Informationen.
+Falls du ein HandBrake Paket von deiner Distribution oder einem anderen Drittanbieter Repository installiert hast, entferne es bitte bevor zu weitermachst. Siehe den Abschnitt *Warnung über nicht funktionierende Drittanbieter Builds* in [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.markdown) für mehr Informationen.
 
 ## Abhängigkeiten installieren
 
 Anweisungen für die Installation von Abhängigkeiten sind für die folgenden Distributionen verfügbar.
 
-- [FreeBSD](install-dependencies-freebsd.html)
+- [FreeBSD](install-dependencies-freebsd.markdown)
 
 ## HandBrake bauen
 

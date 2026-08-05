@@ -106,4 +106,4 @@ Für Intel Quick Sync Video Unterstützung, installiere die QSV Abhängigkeiten:
 
     sudo apt-get install libva-dev libdrm-dev
 
-Ubuntu ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weitere Anweisungen.
+Ubuntu ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weitere Anweisungen.

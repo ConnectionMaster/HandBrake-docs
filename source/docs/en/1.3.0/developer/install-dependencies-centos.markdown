@@ -102,7 +102,7 @@ To build the GTK [GUI](abbr:Graphical User Interface), install the graphical int
 
     sudo dnf install dbus-glib-devel gstreamer1-devel gstreamer1-libav gstreamer1-plugins-base-devel intltool libgudev1-devel libnotify-devel webkit2gtk3-devel
 
-CentOS is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+CentOS is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.
 
 
 ## CentOS 7
@@ -248,7 +248,7 @@ The GNU Compiler Collection and related packages provided by CentOS 7 are old. I
     echo 'export CFLAGS="${CFLAGS:-} -I/usr/local/include"' >> "${HOME}/.bashrc"
     echo 'export LDFLAGS="${LDFLAGS:-} -L/usr/local/lib"' >> "${HOME}/.bashrc"
 
-CentOS is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.html) for further instructions.
+CentOS is now prepared to build HandBrake. See [Building HandBrake for Linux](build-linux.markdown) for further instructions.
 
 [^opus-el6]: Installing newer packages than those available in the base repository may lead to incompatibility with other software expecting specific package versions.
 

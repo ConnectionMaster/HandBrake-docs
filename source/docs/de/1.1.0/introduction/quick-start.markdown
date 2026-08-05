@@ -18,7 +18,7 @@ Quick Start
 
 HandBrake nimmt Videos die du bereits hast und erstellt neue, welche auf deinem Handy, Tablet, Fernseher, Spielekonsole, Computer oder Browser laufen - nahezu alles was moderne Videoformate unterstützt.
 
-Dieser Quick Start Guide setzt voraus, dass du bereits HandBrake heruntergeladen und installiert hast. Falls du HandBrake noch nicht hast, sehe dir bitte [HandBrake herunterladen und installieren](../get-handbrake/download-and-install.html) an.
+Dieser Quick Start Guide setzt voraus, dass du bereits HandBrake heruntergeladen und installiert hast. Falls du HandBrake noch nicht hast, sehe dir bitte [HandBrake herunterladen und installieren](../get-handbrake/download-and-install.markdown) an.
 
 Lass uns beginnen.
 
@@ -96,7 +96,7 @@ Die Standard-Voreinstellung `Fast 1080p30` ist meistens eine gute Wahl, da es sc
 
 <!-- /.system-windows -->
 
-`Voreinstellungen` können die Kompatibilität (wie gut das Video auf deinem Gerät und Software läuft) und Kodierungszeit beeinflussen. Lerne mehr über [eine Voreinstellung auswählen](../workflow/select-preset.html).
+`Voreinstellungen` können die Kompatibilität (wie gut das Video auf deinem Gerät und Software läuft) und Kodierungszeit beeinflussen. Lerne mehr über [eine Voreinstellung auswählen](../workflow/select-preset.markdown).
 
 ## Wähle ein Ziel
 
@@ -162,12 +162,12 @@ Herzlichen Glückwunsch! Du hast soeben dein erstes Video mit HandBrake erstellt
 
 <!-- .success -->
 
-Fahre fort zu [Über HandBrake](about.html).
+Fahre fort zu [Über HandBrake](about.markdown).
 
 <!-- /.success -->
 <!-- .fail -->
 
-Falls du dein Video nicht wie erwartet bekommen hast, Fehler aufgetreten sind oder du andere Probleme hast, kannst du weiterlesen um mehr über die Arbeitsweise von HandBrake zu erfahren oder dir gleich die [Fehlerbehebung bekannter Probleme](../help/troubleshooting-common-issues.html) anschauen.
+Falls du dein Video nicht wie erwartet bekommen hast, Fehler aufgetreten sind oder du andere Probleme hast, kannst du weiterlesen um mehr über die Arbeitsweise von HandBrake zu erfahren oder dir gleich die [Fehlerbehebung bekannter Probleme](../help/troubleshooting-common-issues.markdown) anschauen.
 
 <!-- /.fail -->
 

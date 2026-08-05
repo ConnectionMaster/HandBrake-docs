@@ -74,10 +74,10 @@ Folgende Auflistung ist das Minimum an Hardware das HandBrake unterstützt. Es k
 
 Bitte lese den jeweiligen Dokumentationsartikel für die Kodierer für mehr Details:
 
-- [AMD VCE](video-vce.html)
-- [Apple VideoToolbox](video-videotoolbox.html)
-- [Intel Quick Sync Video](video-qsv.html)
-- [NVIDIA NVENC](video-nvenc.html)
+- [AMD VCE](video-vce.markdown)
+- [Apple VideoToolbox](video-videotoolbox.markdown)
+- [Intel Quick Sync Video](video-qsv.markdown)
+- [NVIDIA NVENC](video-nvenc.markdown)
 
 ## Software
 Folgende Auflistung beschreibt die Unterstützung der aktuellen HandBrake Version für verschiedene Systeme.
@@ -96,7 +96,7 @@ Folgende Auflistung beschreibt die Unterstützung der aktuellen HandBrake Versio
 
 - Neuere Ubuntu LTS Versionen werden üblicherweise unterstützt
 - HandBrake wird üblicherweise für nicht-LTS Versionen bis zum Lebensende der Version mit Updates versorgt
-- Besuche [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.html) für mehr Informationen über das PPA
+- Besuche [Wo bekomme ich HandBrake her](../get-handbrake/where-to-get-handbrake.markdown) für mehr Informationen über das PPA
 
 | Ubuntu Version     | Status              | Letzte Kompatible Version |
 |--------------------|---------------------|---------------------------|
@@ -113,7 +113,7 @@ Der Download ist auf unserer Website und im [FlatHub](https://flathub.org/apps/d
 
 #### Andere Distributionen
 
-Für andere Distributionen musst du mithilfe der verlinkten Artikel den [Linux](../developer/build-linux.html) bzw. den [BSD](../developer/build-bsd.html) Quellcode kompilieren.
+Für andere Distributionen musst du mithilfe der verlinkten Artikel den [Linux](../developer/build-linux.markdown) bzw. den [BSD](../developer/build-bsd.markdown) Quellcode kompilieren.
 
 <!-- /.system-linux -->
 <!-- .system-macos -->

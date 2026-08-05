@@ -102,7 +102,7 @@ Für Intel Quick Sync Video Unterstützung, installiere die QSV Abhängigkeiten.
 
     sudo dnf install libva-devel libdrm-devel
 
-CentOS ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weiterführende Instruktionen.
+CentOS ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weiterführende Instruktionen.
 
 
 ## CentOS 7
@@ -239,7 +239,7 @@ Die GNU Compiler Collection und zugehörige Pakete die von CentOS 7 bereitgestel
     echo 'export CFLAGS="${CFLAGS:-} -I/usr/local/include"' >> "${HOME}/.bashrc"
     echo 'export LDFLAGS="${LDFLAGS:-} -L/usr/local/lib"' >> "${HOME}/.bashrc"
 
-CentOS ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weiterführende Instruktionen.
+CentOS ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weiterführende Instruktionen.
 
 [^opus-el6]: Die Installation von Paketen, die neuer sind als die aus dem base Repository, könnte zu Inkompatibilitäten mit anderer Software führen, welche eine bestimmte Paketversion erwarten.
 

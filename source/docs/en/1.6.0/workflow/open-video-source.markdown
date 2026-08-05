@@ -17,7 +17,7 @@ License_URL:     https://handbrake.fr/docs/license.html
 Opening a video source
 ======================
 
-Once you've [downloaded and installed HandBrake](../get-handbrake/download-and-install.html), it's time to open a video for encoding.
+Once you've [downloaded and installed HandBrake](../get-handbrake/download-and-install.markdown), it's time to open a video for encoding.
 
 ## About sources
 
@@ -30,9 +30,9 @@ In HandBrake terms, the video you already have is called the `Source`. One of Ha
 - Broadcast TV recordings
 - Digital recordings of VHS, Beta, Video8/Hi8, LaserDisc, and other analog sources
 
-You can learn more about [Source formats](../technical/source-formats.html) in the technical documentation.
+You can learn more about [Source formats](../technical/source-formats.markdown) in the technical documentation.
 
-**Note:** HandBrake does not defeat or circumvent [copy protection](https://en.wikipedia.org/wiki/Copy_protection) of any kind. It does not work with video files employing [[DRM](https://en.wikipedia.org/wiki/Digital_rights_management)](abbr:Digital Rights Management). See [About HandBrake](../introduction/about.html) for more information about what HandBrake *does* and *does not*.
+**Note:** HandBrake does not defeat or circumvent [copy protection](https://en.wikipedia.org/wiki/Copy_protection) of any kind. It does not work with video files employing [[DRM](https://en.wikipedia.org/wiki/Digital_rights_management)](abbr:Digital Rights Management). See [About HandBrake](../introduction/about.markdown) for more information about what HandBrake *does* and *does not*.
 
 ## Ways to open a video source
 
@@ -120,12 +120,12 @@ Great! At this point, HandBrake knows which video you want to use.
 
 <!-- .success -->
 
-Continue to [Selecting a preset](select-preset.html).
+Continue to [Selecting a preset](select-preset.markdown).
 
 <!-- /.success -->
 <!-- .fail -->
 
-If HandBrake didn't open your video as as expected or you had some other trouble, you can continue reading to learn more about how HandBrake works or jump right to [Troubleshooting common issues](../help/troubleshooting-common-issues.html).
+If HandBrake didn't open your video as as expected or you had some other trouble, you can continue reading to learn more about how HandBrake works or jump right to [Troubleshooting common issues](../help/troubleshooting-common-issues.markdown).
 
 <!-- /.fail -->
 

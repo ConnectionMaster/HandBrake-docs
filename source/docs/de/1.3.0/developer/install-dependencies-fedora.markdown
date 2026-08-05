@@ -102,4 +102,4 @@ Für Intel Quick Sync Video Unterstützung, installiere die QSV Abhängigkeiten.
 
     sudo dnf install libva-devel libdrm-devel
 
-Fedora ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weitere Anweisungen.
+Fedora ist nun bereit HandBrake zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weitere Anweisungen.

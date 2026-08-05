@@ -40,10 +40,10 @@ While it may be technically possible to run HandBrake on hardware not meeting th
 
 Please see the specific documentation pages for these encoders for further details.
 
-- [AMD VCE](video-vce.html)
-- [Apple VideoToolbox](video-videotoolbox.html)
-- [Intel Quick Sync Video](video-qsv.html)
-- [NVIDIA NVENC](video-nvenc.html)
+- [AMD VCE](video-vce.markdown)
+- [Apple VideoToolbox](video-videotoolbox.markdown)
+- [Intel Quick Sync Video](video-qsv.markdown)
+- [NVIDIA NVENC](video-nvenc.markdown)
 
 ## Software
 
@@ -51,7 +51,7 @@ The following describes the level of support available for the current HandBrake
 
 | Status      | Description                                                              | Support Level        | Maintenance                                                                                                            |
 |-------------|--------------------------------------------------------------------------|----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Supported   | HandBrake is maintained and tested working on these system versions.     | The HandBrake Team and community members provide [volunteer support](../help/community-support.html). | [Issue reports](https://github.com/HandBrake/HandBrake/issues) are welcome and addressed based on team availability. |
+| Supported   | HandBrake is maintained and tested working on these system versions.     | The HandBrake Team and community members provide [volunteer support](../help/community-support.markdown). | [Issue reports](https://github.com/HandBrake/HandBrake/issues) are welcome and addressed based on team availability. |
 | Deprecated  | HandBrake might work on these system versions with limitations.          | No support will be provided. | Most issues will likely not be addressed. Please update to enjoy the latest features and bug fixes.            |
 | Unsupported | HandBrake does not work or is severely limited on these system versions. | No support will be provided. | No issues will be addressed, regardless of severity. Updating as soon as possible is highly recommended.       |
 
@@ -97,7 +97,7 @@ Interim (non-LTS) versions are typically supported until their end of life.
 
 While no official support for other systems is provided, HandBrake’s Flatpak binaries are widely compatible, and documentation is provided for compiling from source on a variety of BSDs and Linux distributions. Hardware encoding support may be limited or unavailable on these systems.
 
-See [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.html), [Building HandBrake for BSD](../developer/build-bsd.html), and [Building HandBrake for Linux](../developer/build-linux.html), for additional details.
+See [Where to get HandBrake](../get-handbrake/where-to-get-handbrake.markdown), [Building HandBrake for BSD](../developer/build-bsd.markdown), and [Building HandBrake for Linux](../developer/build-linux.markdown), for additional details.
 
 <!-- /.system-linux -->
 <!-- .system-macos -->

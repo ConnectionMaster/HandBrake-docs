@@ -20,5 +20,5 @@ Welcome to the HandBrake Documentation.
 
 Documentation is currently available in the following languages:
 
-- [Deutsch](de/)
-- [English](en/)
+- [Deutsch](de/index.markdown)
+- [English](en/index.markdown)

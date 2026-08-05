@@ -21,9 +21,9 @@ Welcome to the English documentation for HandBrake 1.6.0 through 1.6.1.
 
 Here are some quick links to get you started:
 
-- To quickly get up and running with HandBrake, continue to [Quick start](introduction/quick-start.html)
-- To get a copy of HandBrake (*it's free!*), see [Downloading and installing HandBrake](get-handbrake/download-and-install.html)
-- A more detailed guide to using HandBrake begins with [Opening a video source](workflow/open-video-source.html)
-- Having problems? See [Troubleshooting common issues](help/troubleshooting-common-issues.html)
+- To quickly get up and running with HandBrake, continue to [Quick start](introduction/quick-start.markdown)
+- To get a copy of HandBrake (*it's free!*), see [Downloading and installing HandBrake](get-handbrake/download-and-install.markdown)
+- A more detailed guide to using HandBrake begins with [Opening a video source](workflow/open-video-source.markdown)
+- Having problems? See [Troubleshooting common issues](help/troubleshooting-common-issues.markdown)
 
-Continue to the [Table of contents](table-of-contents.html) for a list of all available articles.
+Continue to the [Table of contents](table-of-contents.markdown) for a list of all available articles.

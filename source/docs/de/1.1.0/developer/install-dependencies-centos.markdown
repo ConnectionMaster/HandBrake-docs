@@ -68,7 +68,7 @@ Installiere das freie [RPM Fusion](http://rpmfusion.org) Repository und zugehör
     sudo yum localinstall --nogpgcheck https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
     sudo yum install lame-devel x264-devel
 
-CentOS ist nun bereit die HandBrake [CLI](abbr:Command Line Interface - Kommandozeile) zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für weiterführende Instruktionen.
+CentOS ist nun bereit die HandBrake [CLI](abbr:Command Line Interface - Kommandozeile) zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für weiterführende Instruktionen.
 
 ## CentOS 6
 
@@ -140,6 +140,6 @@ Starte eine neue Shell mit Python 2.7 aktiviert.
 
     scl enable python27 bash
 
-CentOS ist nun bereit die HandBrake [CLI](abbr:Command Line Interface) zu bauen. Siehe [HandBrake für Linux bauen](build-linux.html) für mehr Instruktionen.
+CentOS ist nun bereit die HandBrake [CLI](abbr:Command Line Interface) zu bauen. Siehe [HandBrake für Linux bauen](build-linux.markdown) für mehr Instruktionen.
 
 [^python-centos-6]: Python vom Centos [SCL](https://wiki.centos.org/AdditionalResources/Repositories/SCL) zu installieren beeinflusst nicht das Standard System Python; neuere Versionen werden neben der Systemversion installiert.

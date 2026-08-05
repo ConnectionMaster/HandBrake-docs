@@ -23,7 +23,7 @@ Luckily, you can set up multiple encodes at once by adding them to HandBrake's `
 
 ## Adding encodes to the Queue
 
-Begin by [opening a Source, selecting a Title](../workflow/open-video-source.html), and [selecting a Preset](../workflow/select-preset.html). Then select the `Add to Queue` button on the toolbar.
+Begin by [opening a Source, selecting a Title](../workflow/open-video-source.markdown), and [selecting a Preset](../workflow/select-preset.markdown). Then select the `Add to Queue` button on the toolbar.
 
 <!-- .system-macos -->
 

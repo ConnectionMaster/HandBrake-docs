@@ -31,7 +31,7 @@ On the `Video` tab, increase video quality by adjusting the control toward the r
 
 <!-- /.system-macos -->
 
-You can test your settings by encoding and watching short clips using HandBrake's [Preview feature](../workflow/preview-settings.html).
+You can test your settings by encoding and watching short clips using HandBrake's [Preview feature](../workflow/preview-settings.markdown).
 
 
 ## Recommended quality settings
@@ -76,7 +76,7 @@ You may wish to slightly increase quality for viewing on larger displays (50 inc
 
 <!-- .success -->
 
-Continue to [Previewing your settings](preview-settings.html).
+Continue to [Previewing your settings](preview-settings.markdown).
 
 <!-- /.success -->
 

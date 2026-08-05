@@ -18,7 +18,7 @@ Quick start
 
 HandBrake takes videos you already have and makes new ones that work on your mobile phone, tablet, TV media player, game console, computer, or web browser—nearly anything that supports modern video formats.
 
-This quick start guide assumes you have already downloaded and installed HandBrake. If you do not already have HandBrake, please see [Downloading and installing HandBrake](../get-handbrake/download-and-install.html).
+This quick start guide assumes you have already downloaded and installed HandBrake. If you do not already have HandBrake, please see [Downloading and installing HandBrake](../get-handbrake/download-and-install.markdown).
 
 Let's get started.
 
@@ -96,7 +96,7 @@ The default `Fast 1080p30` preset is often a good choice because it's fast and c
 
 <!-- /.system-windows -->
 
-`Presets` can affect compatibility (whether your video will work with your devices and software) and encoding time. Learn more about [Selecting a preset](../workflow/select-preset.html).
+`Presets` can affect compatibility (whether your video will work with your devices and software) and encoding time. Learn more about [Selecting a preset](../workflow/select-preset.markdown).
 
 ## Select a destination
 
@@ -162,12 +162,12 @@ Congratulations! You just encoded your first video using HandBrake. It's now rea
 
 <!-- .success -->
 
-Continue to [About HandBrake](about.html).
+Continue to [About HandBrake](about.markdown).
 
 <!-- /.success -->
 <!-- .fail -->
 
-If you didn't get a video file as expected, encountered an error, or had some other trouble, you can continue reading to learn more about how HandBrake works or jump right to [Troubleshooting common issues](../help/troubleshooting-common-issues.html).
+If you didn't get a video file as expected, encountered an error, or had some other trouble, you can continue reading to learn more about how HandBrake works or jump right to [Troubleshooting common issues](../help/troubleshooting-common-issues.markdown).
 
 <!-- /.fail -->
 
