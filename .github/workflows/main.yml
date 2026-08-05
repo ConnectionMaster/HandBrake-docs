@@ -1,9 +1,9 @@
 name: Build
 
-on: 
+on:
    push:
    pull_request:
-   workflow_dispatch: 
+   workflow_dispatch:
 
 jobs:
   handle_forks:
@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Print Warning
       run: |
-        echo "Builds are disabled for forked repositories."      
+        echo "Builds are disabled for forked repositories."
 
   build:
     name: Build on Ubuntu
@@ -21,21 +21,21 @@ jobs:
     if: github.repository == 'HandBrake/HandBrake-docs'
     steps:
     - uses: actions/checkout@master
-    
+
     - name: Toolchain Cache
       id: build-toolchain
       uses: actions/cache@v5
       with:
         path: tools/local
         key: build-toolchain
-        
+
     - name: Build Toolchain
       if: steps.build-toolchain.outputs.cache-hit != 'true'
       run: |
         git submodule update --init
-        ./build-tools 
+        ./build-tools
         ls -la
-        
+
     - name: Build
       run: |
         bash ./marsh build --log-level=verbose --markdown="tools/local/bin/markdown"
@@ -62,13 +62,13 @@ jobs:
     if: github.repository == 'HandBrake/HandBrake-docs'
     steps:
       - uses: actions/checkout@v6
-       
+
       - name: Download Artifacts - Documentation
         uses: actions/download-artifact@v8
         with:
           name: docs
           path: docs/
-          
+
       # Generate Hashes
       - name: Generate SHA265 Hashes
         run: |
@@ -81,7 +81,7 @@ jobs:
           sed -e 's/^/| /'  -i sha256.txt
           sed -e 's/$/ |/' -i sha256.txt
           cat sha256.txt >> rel_body.md
-      
+
       # Publishing the Release
       - name: Remove the old Release
         uses: dev-drprasad/delete-older-releases@v0.3.4
@@ -90,7 +90,7 @@ jobs:
           delete_tag_pattern: "docs"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Update Release
         uses: ncipollo/release-action@v1
         with:
