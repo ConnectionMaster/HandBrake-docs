@@ -38,7 +38,7 @@ jobs:
         
     - name: Build
       run: |
-        bash ./marsh build --markdown="tools/local/bin/markdown"
+        bash ./marsh build --log-level=verbose --markdown="tools/local/bin/markdown"
         gitrev=$(git rev-parse --short HEAD)
         cd public
         tar cvzf HandBrake_Documentation.$gitrev.tar.gz docs
