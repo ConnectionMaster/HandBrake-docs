@@ -35,41 +35,55 @@ Dependency installation instructions are available for the following distributio
 - [Ubuntu](install-dependencies-ubuntu.markdown)
 - [Void](install-dependencies-void.markdown)
 
-
 ## Building HandBrake
 
 Clone the HandBrake repository.
 
     git clone https://github.com/HandBrake/HandBrake.git && cd HandBrake
 
-Build HandBrake. 
+You can enable or disable various HandBrake features via additional configure parameters. The following is a short list of common parameters; see `./configure --help` for a complete list.
+
+| Parameter        | Description                                                  |
+|------------------|--------------------------------------------------------------|
+| --enable-fdk-aac | Enable FDK-AAC audio encoder[^fdk-aac-license]               |
+| --enable-nvenc   | Enable Nvidia NVENC video encoder                            |
+| --enable-nvdec   | Enable Nvidia NVDEC video decoder                            |
+| --enable-vaapi   | Enable VAAPI video encoder/decoder                           |
+| --enable-qsv     | Enable Intel Quick Sync Video encoder/decoder                |
+| --enable-vce     | Enable AMD VCN video encoder                                 |
+| --enable-amfdec  | Enable AMD VCN video decoder                                 |
+| --enable-libdovi | Enable libdovi for Dolby Vision HDR support                  |
+| --disable-gtk    | Disable the GTK graphical interface; only build HandBrakeCLI |
+
+Build HandBrake. Append any desired configure parameters to this command.
 
     ./configure --launch-jobs=$(nproc) --launch
-    
-The following optional parameters are commonly used:
 
-| Parameter        | Description         |
-|------------------|---------------------|
-| --enable-qsv     | Enable support for the Intel QuickSync Video Decoder and Encoder |
-| --enable-nvdec   | Enable support for the Nvidia NVDec Decoder |
-| --enable-vce     | Enable support for the AMD VCN video encoder |
-| --enable-libdovi | Enable support for Dolby Vision |
-| --disable-gtk    | Build only HandBrakeCLI on Linux |
+When building completes successfully, these important artifacts are produced:
 
-For a full listing of options, use the command:
+- `HandBrakeCLI` in the `build` directory, which is the HandBrake command line interface.
+- `ghb` in the `build/gtk/src` directory, which is the HandBrake [GUI](abbr:Graphical User Interface) for Linux. It will not exist if you disabled the graphical interface by configuring with `--disable-gtk`.
 
-    ./configure --help
- 
-When complete, you will find `HandBrakeCLI` in the `build` directory. If the graphical interface is enabled, you will also find `ghb` in the `build/gtk/src` directory.
-
-Install HandBrake (optional). When installing the graphical interface, icon and desktop files for the Applications menu will be also installed.
+Install HandBrake (optional). When installing the graphical interface, icon and desktop files for the Applications menu are also installed.
 
     sudo make --directory=build install
-    
-If you wish to then uninstall
-    
+
+To uninstall HandBrake, run the following.
+
     sudo make --directory=build uninstall
+
+## Troubleshooting
+
+If building HandBrake fails, continue building as much as possible, then build serially (only one job at a time) and investigate any errors printed at the end.
+
+    make --directory=build --jobs=$(nproc) --keep-going || make --directory=build --jobs=1
+
+Build failures are often due to missing dependencies. Ensure you have followed all of the above instructions for installing dependencies.
 
 To start over, simply remove the `build` directory.
 
     rm -rf build
+
+If you still have issues, someone may be able to help via HandBrake's [Community support](../help/community-support.markdown) channels.
+
+[^fdk-aac-license]: The FDK AAC encoder is only provided in source code form and is not fully compatible with the GNU General Public License Version 2 used by HandBrake. Builds including FDK AAC must be for personal use only and may not be distributed. Do not share the build product with others.

@@ -16,108 +16,130 @@ License_URL:     https://handbrake.fr/docs/license.html
 Building HandBrake for Windows
 ==============================
 
-## Command line interface and LibHB
+Building HandBrake for Windows requires two steps:
 
-Building the HandBrake [CLI](abbr:Command Line Interface) and LibHB (`hb.dll`) for Windows requires Linux and a recent [MinGW-w64](https://mingw-w64.org/) toolchain. A recent Ubuntu LTS release is recommended; recent releases from other distros may work as well. Virtual machines and [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/) are supported. In all cases, we recommend you build the MinGW-w64 toolchain using our instructions and the included script, as some packaged versions have issues that can produce non-functioning builds.
+1. Cross-compiling the LibHB core library (`hb.dll`) and HandBrake [CLI](abbr:Command Line Interface) on Linux using a [MinGW-w64](https://mingw-w64.org/) toolchain
+2. Building the HandBrake [GUI](abbr:Graphical User Interface) on Windows using [Microsoft Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 
-### Installing dependencies on Ubuntu
+LibHB can also be downloaded from [HandBrake development snapshot builds](https://github.com/HandBrake/handbrake-snapshots/) if you only want to build the HandBrake GUI on Windows. If you want to run the latest unreleased HandBrake code without building anything yourself, you can download a development snapshot of HandBrake from there, with everything including the GUI, and skip the rest of this guide.
 
-The following instructions are for [Ubuntu](https://www.ubuntu.com) 22.04 (Jammy Jellyfish)
+## Cross-compiling LibHB and HandBrake CLI on Linux
 
-Basic requirements to run commands:
+These instructions are for recent [Ubuntu Linux](https://ubuntu.com/) [LTS](abbr:Long-Term Support) releases. Recent releases from other Linux distros may work as well, but are not officially supported by the HandBrake project. Physical machines, virtual machines, containerized machines, and [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/) are all valid options for running Ubuntu Linux.
 
-- sudo (for normal user accounts)
+### Installing dependencies
 
-Dependencies:
+Begin by installing all dependencies specified in the guide [Installing dependencies on Ubuntu](install-dependencies-ubuntu.markdown).
 
-- autoconf
-- automake
-- autopoint
-- build-essential
-- cargo
-- cmake
-- clang
-- curl
-- gcc
-- git
-- libssl-dev
-- libtool
-- libtool-bin
-- m4
-- make
-- meson
-- nasm
-- ninja-build
-- patch
-- pkg-config
-- rustc
-- tar
-- zlib1g-dev
+### Cross-compiling for Windows ARM machines
 
-Additional MinGW-w64 toolchain dependencies:
+*This section is for running HandBrake on ARM-based Windows machines only (not x64). You can find the type of machine you have by opening Windows Settings and navigating to System > About.*
 
-- bison
-- bzip2
-- curl
-- flex
-- g++
-- gzip
-- pax
+After installing the Ubuntu dependencies, continue as follows.
 
-Install dependencies.
+To build with Dolby Vision support, install the additional Rust dependencies for Windows ARM.
 
-    sudo apt-get update
-    sudo apt-get install automake autoconf autopoint build-essential cmake gcc git intltool libtool libtool-bin m4 make meson nasm ninja-build patch pkg-config tar zlib1g-dev clang curl libssl-dev
-    curl https://sh.rustup.rs -sSf | sh
-    source "$HOME/.cargo/env"
-    cargo install cargo-c
-    rustup target add x86_64-pc-windows-gnu
+    rustup target add aarch64-pc-windows-gnullvm
 
-Install the additional dependencies required to build the MinGW-w64 toolchain.
+Download and extract the prebuilt LLVM MinGW-w64 toolchain, available from [HandBrake toolchains releases](https://github.com/HandBrake/HandBrake-toolchains/releases) and [LLVM MinGW project releases](https://github.com/mstorsjo/llvm-mingw/releases).
 
-    sudo apt-get install bison bzip2 flex g++ gzip pax
+    PREV_DIR="${PWD}"
+    mkdir -p "${HOME}/toolchains"
+    cd "${HOME}/toolchains"
+    curl -LO "https://github.com/HandBrake/HandBrake-toolchains/releases/download/1.0/llvm-mingw-20260324-ucrt-ubuntu-22.04-$(uname -m).tar.xz"
+    tar -xf "llvm-mingw-20260324-ucrt-ubuntu-22.04-$(uname -m).tar.xz"
+    export PATH="${HOME}/toolchains/llvm-mingw-20260324-ucrt-ubuntu-22.04-$(uname -m)/bin:${PATH}"
+    cd "${PREV_DIR}"
 
-
-### Building the MinGW-w64 toolchain and HandBrake
+    # command to make persistent across sessions (optional)
+    # replace "${HOME}/.bashrc" with the path to your shell startup script if different
+    # echo "export PATH=\"${HOME}/toolchains/llvm-mingw-20260324-ucrt-ubuntu-22.04-$(uname -m)/bin:\${PATH}\"" >> "${HOME}/.bashrc"
 
 Clone the HandBrake repository.
 
     git clone https://github.com/HandBrake/HandBrake.git && cd HandBrake
 
-Build the MinGW-w64 toolchain using the included script, where `username` is your user name. Feel free to choose a different output path, if desired.
+Build LibHB and the HandBrake CLI using the cross-compilation toolchain.
 
-    scripts/mingw-w64-build x86_64 /home/username/toolchains/
+    ./configure --cross=aarch64-w64-mingw32 --launch-jobs=$(nproc) --launch
 
-This process will take a few minutes, then provide you with instructions for adding the resulting binaries location to your environment's `PATH`. Do this now.
+### Cross-compiling for Windows x64 machines
 
-Build HandBrake. For higher quality audio, enable the FDK AAC encoder by appending `--enable-fdk-aac`. Builds including FDK AAC must be for personal use only and may not be distributed.[^fdk-aac-license]
+*This section is for running HandBrake on x64-based Windows machines only (not ARM). You can find the type of machine you have by opening Windows Settings and navigating to System > About.*
+
+After installing the Ubuntu dependencies, continue as follows.
+
+To build with Dolby Vision support, install the additional Rust dependencies for Windows x64.
+
+    rustup target add x86_64-pc-windows-gnu
+
+Clone the HandBrake repository.
+
+    git clone https://github.com/HandBrake/HandBrake.git && cd HandBrake
+
+Install the additional dependencies required to build the GCC MinGW-w64 toolchain.
+
+    sudo apt-get install bison bzip2 curl flex g++ gcc gzip m4 make pax
+
+Build the GCC MinGW-w64 toolchain using the `mingw-w64-build` script included with HandBrake and available from [mingw-w64-build](https://github.com/bradleysepos/mingw-w64-build).
+
+    scripts/mingw-w64-build x86_64
+
+The process will take a few minutes and then provide you with a command to run to update your environment's `PATH` variable. Do this now to ensure that HandBrake's build system can find the toolchain.
+
+Build LibHB and the HandBrake CLI using the cross-compilation toolchain.
 
     ./configure --cross=x86_64-w64-mingw32 --launch-jobs=$(nproc) --launch
 
-When complete, you will find `HandBrakeCLI.exe` in the `build` directory and `hb.dll` in `build/libhb`.
+### Locating the build product
+
+When cross-compiling completes successfully, two important artifacts are produced:
+
+- `HandBrakeCLI.exe` in the `build` directory, which is the HandBrake command line interface. If you do not intend to build and use the graphical interface, this program is all you need. Copy it to your Windows installation, and run it via the Windows Command Prompt or Windows Powershell in the Windows Terminal app.
+- `hb.dll` in the `build/libhb` directory, which is the LibHB core library used by the HandBrake GUI for Windows. You will need to copy this file to the output folder on your Windows machine after you have built the graphical interface in the next section.
+
+### Troubleshooting
+
+If building HandBrake fails, continue building as much as possible, then build serially (only one job at a time) and investigate any errors printed at the end.
+
+    make --directory=build --jobs=$(nproc) --keep-going || make --directory=build --jobs=1
+
+Build failures are often due to missing dependencies. Ensure you have followed all of the above instructions for installing dependencies.
 
 To start over, simply remove the `build` directory.
 
     rm -rf build
 
+If you still have issues, someone may be able to help via HandBrake's [Community support](../help/community-support.markdown) channels.
 
-## Graphical interface
+## Building the HandBrake GUI on Windows
 
-The following tools are required to build and run the [GUI](abbr:Graphical User Interface).
+The following tools are required to build the HandBrake GUI.
 
 - [Microsoft Visual Studio Community](https://www.visualstudio.com/vs/community/)
-- A Git client
-  - [Source Tree](https://www.sourcetreeapp.com) (recommended)
-  - Client included with Visual Studio 2022 or later
-- `hb.dll` (see the LibHB build instructions preceding these, or download from [https://github.com/HandBrake/handbrake-snapshots/))
+- Git client to download the HandBrake source code
+  - [Atlassian Sourcetree](https://www.sourcetreeapp.com) (graphical interface, recommended)
+  - [Git for Windows](https://git-scm.com/install/windows) (command line interface)
+  - Client included with Visual Studio
 
+Begin by downloading and installing the required tools.
 
-Clone `https://github.com/HandBrake/HandBrake.git` using your git client.
+Clone the HandBrake repository at `https://github.com/HandBrake/HandBrake.git` using your Git client. If you are using Git for Windows, the command is:
 
-Source code for the GUI resides in the `win\CS` folder and the solution file is named `HandBrake.sln`. Make sure HandBrakeWPF is set as the startup project in the Solution Explorer by right-clicking the name and selecting "Set as startup project".
+    git clone https://github.com/HandBrake/HandBrake.git
 
-To build the GUI, select Build Solution from the Build menu.
+Navigate to the `win\CS` folder and open the `HandBrake.sln` solution file in Visual Studio. In the Visual Studio Solution Explorer pane, right-click on the `HandBrakeWPF` project and choose "Set as Startup Project".
 
-When complete, locate the output folder where `HandBrake.exe` is created (typically in `win\CS\HandBrakeWPF\bin\...`, depending on the selected build profile). Copy `hb.dll` to this folder. This completes the build process.
+To build the HandBrake GUI, choose Build > Build Solution from the Visual Studio main menu. The build process will take a few moments.
 
-[^fdk-aac-license]: The FDK AAC encoder is only provided in source code form and is not fully compatible with the GNU General Public License Version 2 used by HandBrake. Builds including FDK AAC must be for personal use only and may not be distributed. Do not share the build product with others.
+When completed, navigate to the `win\CS\HandBrakeWPF\bin` folder. The `Debug` folder contains the built HandBrake GUI[^solution-configuration]. Copy the LibHB core library `hb.dll` file you previously downloaded or built to the `Debug` folder.
+
+Now that you have completed building HandBrake, you can rename the folder to whatever you prefer, e.g., `HandBrake`, and copy or move it to another location on your system if desired. If you want to run multiple isolated copies of HandBrake on your machine, rename the `portable.ini.template` file inside the folder to `portable.ini`.
+
+Open `HandBrake.exe` to launch HandBrake.
+
+## Troubleshooting
+
+If you encounter any issues, someone may be able to help via HandBrake's [Community support](../help/community-support.markdown) channels.
+
+[^solution-configuration]: If you changed the solution configuration from `Debug` to `Release` in Visual Studio, the `Release` folder contains the built HandBrake GUI.

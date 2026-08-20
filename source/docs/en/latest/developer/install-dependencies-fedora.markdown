@@ -16,7 +16,7 @@ License_URL:     https://handbrake.fr/docs/license.html
 Installing dependencies on Fedora
 =================================
 
-The following instructions are for [Fedora](https://fedoraproject.org) 42 and 43.
+The following instructions are for [Fedora](https://fedoraproject.org) 43 and 44.
 
 Basic requirements to run commands:
 
@@ -68,9 +68,10 @@ Additional dependencies not available in the base repository:
 
 Dolby Vision dependencies (optional):
 
+- openssl-devel
 - rustup
 
-Intel Quick Sync Video dependencies (optional):
+Intel Quick Sync Video and VAAPI dependencies (optional):
 
 - libva-devel
 - libdrm-devel
@@ -99,12 +100,11 @@ Install the [RPM Fusion](http://rpmfusion.org) Free repository and related addit
 
 To build with Dolby Vision support, install the Rust dependencies.
 
-    sudo dnf5 install rustup
+    sudo dnf5 install openssl-devel rustup
     rustup-init -y && source "~/.cargo/env"
-    rustup target add x86_64-pc-windows-gnu
     cargo install cargo-c
 
-To build with Intel Quick Sync Video support, install the QSV dependencies.
+To build with Intel Quick Sync Video and VAAPI support, install the VAAPI dependencies.
 
     sudo dnf5 install libva-devel libdrm-devel
 
